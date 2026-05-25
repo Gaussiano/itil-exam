@@ -1,9 +1,59 @@
 // ITIL Foundation Exam App — main app
 // Renders inside an Android device frame (412×892).
 
-const VERSION = 'v1.1.0';
+const VERSION = 'v1.2.0';
 
 const { useState, useEffect, useRef, useMemo, useCallback } = React;
+
+// ─── Sound ────────────────────────────────────────────────────────────────
+function useSoundEnabled() {
+  const [on, setOn] = useState(() => {
+    try { return localStorage.getItem('itil-sound') !== 'off'; } catch { return true; }
+  });
+  const toggle = () => setOn(prev => {
+    const next = !prev;
+    try { localStorage.setItem('itil-sound', next ? 'on' : 'off'); } catch {}
+    return next;
+  });
+  return [on, toggle];
+}
+
+function playCorrect() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    [523.25, 659.25, 783.99, 1046.5].forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine'; osc.frequency.value = freq;
+      const t = ctx.currentTime + i * 0.1;
+      gain.gain.setValueAtTime(0, t);
+      gain.gain.linearRampToValueAtTime(0.22, t + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.38);
+      osc.start(t); osc.stop(t + 0.4);
+    });
+  } catch {}
+}
+
+function playWrong() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    const osc = ctx.createOscillator();
+    const filter = ctx.createBiquadFilter();
+    const gain = ctx.createGain();
+    filter.type = 'lowpass'; filter.frequency.value = 700;
+    osc.connect(filter); filter.connect(gain); gain.connect(ctx.destination);
+    osc.type = 'sawtooth';
+    osc.frequency.setValueAtTime(190, ctx.currentTime);
+    osc.frequency.linearRampToValueAtTime(230, ctx.currentTime + 0.12);
+    osc.frequency.exponentialRampToValueAtTime(110, ctx.currentTime + 0.75);
+    gain.gain.setValueAtTime(0, ctx.currentTime);
+    gain.gain.linearRampToValueAtTime(0.28, ctx.currentTime + 0.04);
+    gain.gain.setValueAtTime(0.28, ctx.currentTime + 0.55);
+    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.85);
+    osc.start(); osc.stop(ctx.currentTime + 0.9);
+  } catch {}
+}
 
 // ─── Design tokens ────────────────────────────────────────────────────────
 const T = {
@@ -110,7 +160,22 @@ function Progress({ value, max, color = T.accent }) {
 
 // ─── Screens ──────────────────────────────────────────────────────────────
 
-function HomeScreen({ mode, setMode, selectedTopics, setSelectedTopics, onStart, onOpenTopics }) {
+function SoundToggle({ enabled, onToggle, style }) {
+  return (
+    <button
+      onClick={onToggle}
+      title={enabled ? 'Silenciar sonidos' : 'Activar sonidos'}
+      style={{
+        background: 'none', border: 'none', cursor: 'pointer',
+        fontSize: 18, lineHeight: 1, padding: '2px 4px', borderRadius: 8,
+        opacity: enabled ? 1 : 0.4,
+        ...style,
+      }}
+    >{enabled ? '🔊' : '🔇'}</button>
+  );
+}
+
+function HomeScreen({ mode, setMode, selectedTopics, setSelectedTopics, onStart, onOpenTopics, soundEnabled, onToggleSound }) {
   const totalQs = window.ALL_QUESTIONS.length;
   const availableQs = window.ALL_QUESTIONS.filter(q => selectedTopics.includes(q.topic)).length;
   const canStart = availableQs >= 1;
@@ -122,7 +187,10 @@ function HomeScreen({ mode, setMode, selectedTopics, setSelectedTopics, onStart,
           <div style={{ font: '700 11px Manrope', letterSpacing: '0.14em', color: T.text3, textTransform: 'uppercase' }}>
             ITIL® Foundation · v4
           </div>
-          <div style={{ font: '600 11px Manrope', color: T.text3, letterSpacing: '0.05em' }}>{VERSION}</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+            <SoundToggle enabled={soundEnabled} onToggle={onToggleSound} />
+            <div style={{ font: '600 11px Manrope', color: T.text3, letterSpacing: '0.05em' }}>{VERSION}</div>
+          </div>
         </div>
         <h1 style={{
           font: '800 30px/1.12 Manrope', margin: '8px 0 6px', letterSpacing: '-0.02em', color: T.text,
@@ -346,7 +414,7 @@ function Checkbox({ checked }) {
 }
 
 // ─── Exam screen ──────────────────────────────────────────────────────────
-function ExamScreen({ mode, questions, onFinish, onAbort }) {
+function ExamScreen({ mode, questions, onFinish, onAbort, soundEnabled, onToggleSound }) {
   const total = questions.length;
   const [idx, setIdx] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -385,6 +453,7 @@ function ExamScreen({ mode, questions, onFinish, onAbort }) {
     if (selected !== null) return;
     setSelected(optIdx);
     const correct = optIdx === q.correct;
+    if (soundEnabled) { correct ? playCorrect() : playWrong(); }
     const entry = { questionId: q.id, selected: optIdx, correct, topic: q.topic };
 
     if (mode === 'study') {
@@ -422,16 +491,19 @@ function ExamScreen({ mode, questions, onFinish, onAbort }) {
             <span style={{ color: T.accent }}>{idx + 1}</span>
             <span style={{ color: T.text3 }}> / {total}</span>
           </div>
-          {mode === 'exam' ? (
-            <div style={{
-              font: '700 13px JetBrains Mono, monospace',
-              color: timeLeft < 5*60 ? T.error : T.text,
-              background: timeLeft < 5*60 ? T.errorLight : T.surfaceAlt,
-              padding: '4px 10px', borderRadius: 8,
-            }}>{fmtTime(timeLeft)}</div>
-          ) : (
-            <Pill color={T.accent} bg={T.accentLight}>Estudio</Pill>
-          )}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <SoundToggle enabled={soundEnabled} onToggle={onToggleSound} />
+            {mode === 'exam' ? (
+              <div style={{
+                font: '700 13px JetBrains Mono, monospace',
+                color: timeLeft < 5*60 ? T.error : T.text,
+                background: timeLeft < 5*60 ? T.errorLight : T.surfaceAlt,
+                padding: '4px 10px', borderRadius: 8,
+              }}>{fmtTime(timeLeft)}</div>
+            ) : (
+              <Pill color={T.accent} bg={T.accentLight}>Estudio</Pill>
+            )}
+          </div>
         </div>
         <Progress value={idx + (revealed ? 1 : 0)} max={total} />
       </div>
@@ -734,6 +806,7 @@ function App() {
   const [screen, setScreen] = useState('home'); // home | topics | exam | results
   const [mode, setMode] = useState('study');
   const [selectedTopics, setSelectedTopics] = useState(window.TOPICS.map(t => t.id));
+  const [soundEnabled, toggleSound] = useSoundEnabled();
   const [examQuestions, setExamQuestions] = useState([]);
   const [examAnswers, setExamAnswers] = useState([]);
   const [timeUsed, setTimeUsed] = useState(null);
@@ -773,6 +846,8 @@ function App() {
         setSelectedTopics={setSelectedTopics}
         onStart={startExam}
         onOpenTopics={() => setScreen('topics')}
+        soundEnabled={soundEnabled}
+        onToggleSound={toggleSound}
       />
     );
   } else if (screen === 'topics') {
@@ -790,6 +865,8 @@ function App() {
         questions={examQuestions}
         onFinish={finishExam}
         onAbort={abortExam}
+        soundEnabled={soundEnabled}
+        onToggleSound={toggleSound}
       />
     );
   } else if (screen === 'results') {
