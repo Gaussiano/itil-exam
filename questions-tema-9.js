@@ -11,7 +11,8 @@ window.QUESTIONS_T9 = [
       "El número de usuarios concurrentes"
     ],
     correct: 1,
-    explanation: "Disponibilidad: la habilidad de que un servicio IT entregue su funcionalidad cuando es requerido. También aplica a cualquier componente técnico. Es un proceso de gestión proactivo."
+    explanation: "Disponibilidad: la habilidad de que un servicio IT entregue su funcionalidad cuando es requerido. También aplica a cualquier componente técnico. Es un proceso de gestión proactivo.",
+    ref: "Tema 9, slide 1"
   },
   {
     topic: 9,
@@ -23,7 +24,8 @@ window.QUESTIONS_T9 = [
       "Depende del cliente"
     ],
     correct: 1,
-    explanation: "NO se incumple la disponibilidad cuando las paradas están acordadas y aceptadas previamente en el ANS."
+    explanation: "NO se incumple la disponibilidad cuando las paradas están acordadas y aceptadas previamente en el ANS.",
+    ref: "Tema 9, slide 3"
   },
   {
     topic: 9,
@@ -35,7 +37,8 @@ window.QUESTIONS_T9 = [
       "Sólo aplicable a hardware"
     ],
     correct: 1,
-    explanation: "Es un proceso de gestión proactivo: previene que se produzcan paradas."
+    explanation: "Es un proceso de gestión proactivo: previene que se produzcan paradas.",
+    ref: "Tema 9, slide 1"
   },
 
   // ANÁLISIS DE NEGOCIO
@@ -49,7 +52,8 @@ window.QUESTIONS_T9 = [
       "Definir la estrategia financiera"
     ],
     correct: 0,
-    explanation: "Análisis de negocio: trata de comprender las necesidades de negocio que se deben satisfacer, y aterrizarlo en requerimientos que dirijan la implementación de proyectos."
+    explanation: "Análisis de negocio: trata de comprender las necesidades de negocio que se deben satisfacer, y aterrizarlo en requerimientos que dirijan la implementación de proyectos.",
+    ref: "Tema 9, slide 4"
   },
   {
     topic: 9,
@@ -61,7 +65,8 @@ window.QUESTIONS_T9 = [
       "Permanentes y temporales"
     ],
     correct: 1,
-    explanation: "Tipos de requerimientos: de utilidad (¿qué funcionalidad aporta, o qué problema soluciona?) y de garantía (¿cómo debe entregar la utilidad? - disponibilidad, continuidad, capacidad, seguridad)."
+    explanation: "Tipos de requerimientos: de utilidad (¿qué funcionalidad aporta, o qué problema soluciona?) y de garantía (¿cómo debe entregar la utilidad? - disponibilidad, continuidad, capacidad, seguridad).",
+    ref: "Tema 9, slide 5"
   },
 
   // GESTIÓN DE CAPACIDAD
@@ -75,7 +80,8 @@ window.QUESTIONS_T9 = [
       "El número de licencias contratadas"
     ],
     correct: 1,
-    explanation: "Capacidad: la medida de qué es conseguido o entregado por un sistema, persona, equipo, servicio o componente TI."
+    explanation: "Capacidad: la medida de qué es conseguido o entregado por un sistema, persona, equipo, servicio o componente TI.",
+    ref: "Tema 9, slide 8"
   },
   {
     topic: 9,
@@ -87,7 +93,8 @@ window.QUESTIONS_T9 = [
       "Aleatoria"
     ],
     correct: 1,
-    explanation: "Es una práctica de carácter proactivo: aplica recursos para entregar los servicios anticipándose a las necesidades."
+    explanation: "Es una práctica de carácter proactivo: aplica recursos para entregar los servicios anticipándose a las necesidades.",
+    ref: "Tema 9, slide 8"
   },
   {
     topic: 9,
@@ -99,7 +106,8 @@ window.QUESTIONS_T9 = [
       "El sponsor"
     ],
     correct: 1,
-    explanation: "La capacidad de un servicio depende de los componentes TI que lo constituyen. Las personas también tienen capacidad. El eslabón más débil define la capacidad máxima."
+    explanation: "La capacidad de un servicio depende de los componentes TI que lo constituyen. Las personas también tienen capacidad. El eslabón más débil define la capacidad máxima.",
+    ref: "Tema 9, slide 10"
   },
 
   // GESTIÓN DE CAMBIOS
@@ -113,7 +121,8 @@ window.QUESTIONS_T9 = [
       "Una incidencia mayor"
     ],
     correct: 1,
-    explanation: "Cambio: la adición, modificación o eliminación de algo que puede afectar a un servicio."
+    explanation: "Cambio: la adición, modificación o eliminación de algo que puede afectar a un servicio.",
+    ref: "Tema 9, slide 11"
   },
   {
     topic: 9,
@@ -125,7 +134,8 @@ window.QUESTIONS_T9 = [
       "Cambios planificados, urgentes y rutinarios"
     ],
     correct: 1,
-    explanation: "Los 3 tipos de cambio son: estándar (preautorizados, bajo riesgo), normales (siguen un procedimiento con comité asesor de cambios), y de emergencia (procedimiento más rápido)."
+    explanation: "Los 3 tipos de cambio son: estándar (preautorizados, bajo riesgo), normales (siguen un procedimiento con comité asesor de cambios), y de emergencia (procedimiento más rápido).",
+    ref: "Tema 9, slide 12"
   },
   {
     topic: 9,
@@ -137,7 +147,8 @@ window.QUESTIONS_T9 = [
       "Un cambio aprobado por el cliente"
     ],
     correct: 1,
-    explanation: "Cambios estándar: preautorizados, de riesgo bajo, sin \"assessment\" para ser ejecutados."
+    explanation: "Cambios estándar: preautorizados, de riesgo bajo, sin \"assessment\" para ser ejecutados.",
+    ref: "Tema 9, slide 12"
   },
   {
     topic: 9,
@@ -149,7 +160,8 @@ window.QUESTIONS_T9 = [
       "Se prohíbe en ITIL"
     ],
     correct: 1,
-    explanation: "Cambios normales: se originan por una petición de cambio. Siguen un procedimiento; un comité asesor de cambios debe autorizarlo (o rechazarlo)."
+    explanation: "Cambios normales: se originan por una petición de cambio. Siguen un procedimiento; un comité asesor de cambios debe autorizarlo (o rechazarlo).",
+    ref: "Tema 9, slide 12"
   },
   {
     topic: 9,
@@ -161,7 +173,8 @@ window.QUESTIONS_T9 = [
       "Es siempre de alto riesgo y baja prioridad"
     ],
     correct: 0,
-    explanation: "Cambios de emergencia: procedimiento más rápido (p.ej. para solucionar una incidencia)."
+    explanation: "Cambios de emergencia: procedimiento más rápido (p.ej. para solucionar una incidencia).",
+    ref: "Tema 9, slide 12"
   },
 
   // GESTIÓN DE INCIDENCIAS
@@ -175,7 +188,8 @@ window.QUESTIONS_T9 = [
       "Una petición de servicio"
     ],
     correct: 1,
-    explanation: "Incidencia: interrupción no planificada o pérdida de calidad en un servicio."
+    explanation: "Incidencia: interrupción no planificada o pérdida de calidad en un servicio.",
+    ref: "Tema 9, slide 15"
   },
   {
     topic: 9,
@@ -187,7 +201,8 @@ window.QUESTIONS_T9 = [
       "Sólo si supera los 4 segundos"
     ],
     correct: 1,
-    explanation: "SÍ es incidencia: aunque se cumpla el ANS, hay una pérdida de calidad anormal respecto al rendimiento habitual."
+    explanation: "SÍ es incidencia: aunque se cumpla el ANS, hay una pérdida de calidad anormal respecto al rendimiento habitual.",
+    ref: "Tema 9, slide 16"
   },
   {
     topic: 9,
@@ -199,7 +214,8 @@ window.QUESTIONS_T9 = [
       "Estratégica"
     ],
     correct: 1,
-    explanation: "Es una práctica de enfoque reactivo: se ejecuta cuando se produce una incidencia."
+    explanation: "Es una práctica de enfoque reactivo: se ejecuta cuando se produce una incidencia.",
+    ref: "Tema 9, slide 17"
   },
   {
     topic: 9,
@@ -211,7 +227,8 @@ window.QUESTIONS_T9 = [
       "Auditar los servicios"
     ],
     correct: 1,
-    explanation: "Propósito: minimizar el impacto negativo de las incidencias mediante la restauración del servicio a su funcionamiento normal, tan rápido como sea posible."
+    explanation: "Propósito: minimizar el impacto negativo de las incidencias mediante la restauración del servicio a su funcionamiento normal, tan rápido como sea posible.",
+    ref: "Tema 9, slide 15"
   },
   {
     topic: 9,
@@ -223,7 +240,8 @@ window.QUESTIONS_T9 = [
       "Escalado por urgencia y por impacto"
     ],
     correct: 0,
-    explanation: "Escalado de una incidencia: escalado funcional (nivel 1, 2, 3) y escalado jerárquico."
+    explanation: "Escalado de una incidencia: escalado funcional (nivel 1, 2, 3) y escalado jerárquico.",
+    ref: "Tema 9, slide 18"
   },
   {
     topic: 9,
@@ -235,7 +253,8 @@ window.QUESTIONS_T9 = [
       "Una petición de servicio"
     ],
     correct: 1,
-    explanation: "Incidencia mayor: una tipología de incidencia que requiere un proceso de resolución particular."
+    explanation: "Incidencia mayor: una tipología de incidencia que requiere un proceso de resolución particular.",
+    ref: "Tema 9, slide 17"
   },
 
   // GESTIÓN DE ACTIVOS TI
@@ -249,7 +268,8 @@ window.QUESTIONS_T9 = [
       "Únicamente los servidores"
     ],
     correct: 1,
-    explanation: "Activo TI: cualquier componente financieramente significativo que contribuye a la entrega de un producto o servicio TI."
+    explanation: "Activo TI: cualquier componente financieramente significativo que contribuye a la entrega de un producto o servicio TI.",
+    ref: "Tema 9, slide 20"
   },
   {
     topic: 9,
@@ -261,7 +281,8 @@ window.QUESTIONS_T9 = [
       "Una factura"
     ],
     correct: 3,
-    explanation: "Ejemplos de activos TI: impresoras, portátiles, aplicaciones de software, dispositivos de cliente, almacén en la nube, dispositivos IoT, edificios si son necesarios para proveer servicios TI."
+    explanation: "Ejemplos de activos TI: impresoras, portátiles, aplicaciones de software, dispositivos de cliente, almacén en la nube, dispositivos IoT, edificios si son necesarios para proveer servicios TI.",
+    ref: "Tema 9, slide 21"
   },
   {
     topic: 9,
@@ -273,7 +294,8 @@ window.QUESTIONS_T9 = [
       "Security Asset Module"
     ],
     correct: 1,
-    explanation: "SAM: Software Asset Management, gestión de todos los activos de software (aplicaciones, webs, apps, repositorios de código, algoritmos, datos)."
+    explanation: "SAM: Software Asset Management, gestión de todos los activos de software (aplicaciones, webs, apps, repositorios de código, algoritmos, datos).",
+    ref: "Tema 9, slide 22"
   },
   {
     topic: 9,
@@ -285,7 +307,8 @@ window.QUESTIONS_T9 = [
       "International Technical Asset Module"
     ],
     correct: 1,
-    explanation: "ITAM: IT Asset Management, equipamientos e infraestructuras."
+    explanation: "ITAM: IT Asset Management, equipamientos e infraestructuras.",
+    ref: "Tema 9, slide 22"
   },
   {
     topic: 9,
@@ -297,7 +320,8 @@ window.QUESTIONS_T9 = [
       "Un repositorio de incidencias"
     ],
     correct: 1,
-    explanation: "CMDB: base de datos de gestión de la configuración. El registro de activos mapea con la CMDB para conocer localización, estado y relaciones de cada activo."
+    explanation: "CMDB: base de datos de gestión de la configuración. El registro de activos mapea con la CMDB para conocer localización, estado y relaciones de cada activo.",
+    ref: "Tema 9, slide 23"
   },
 
   // GESTIÓN DE EVENTOS
@@ -311,7 +335,8 @@ window.QUESTIONS_T9 = [
       "Una reunión del equipo"
     ],
     correct: 1,
-    explanation: "Evento: cambio de estado significativo para la gestión del servicio de cualquier tipo de CI. No todos los cambios de estado son eventos."
+    explanation: "Evento: cambio de estado significativo para la gestión del servicio de cualquier tipo de CI. No todos los cambios de estado son eventos.",
+    ref: "Tema 9, slide 25"
   },
   {
     topic: 9,
@@ -323,7 +348,8 @@ window.QUESTIONS_T9 = [
       "Internos, externos e híbridos"
     ],
     correct: 1,
-    explanation: "Tipos de eventos: Informativos (no requieren acción inmediata), Avisos (requieren análisis), Alarmas (requieren acción inmediata)."
+    explanation: "Tipos de eventos: Informativos (no requieren acción inmediata), Avisos (requieren análisis), Alarmas (requieren acción inmediata).",
+    ref: "Tema 9, slide 26"
   },
   {
     topic: 9,
@@ -335,7 +361,8 @@ window.QUESTIONS_T9 = [
       "No es un evento"
     ],
     correct: 1,
-    explanation: "Una BBDD al 85% de capacidad es un aviso: requiere análisis para determinar si se producirán incidencias o problemas."
+    explanation: "Una BBDD al 85% de capacidad es un aviso: requiere análisis para determinar si se producirán incidencias o problemas.",
+    ref: "Tema 9, slide 26"
   },
   {
     topic: 9,
@@ -347,7 +374,8 @@ window.QUESTIONS_T9 = [
       "No es un evento"
     ],
     correct: 2,
-    explanation: "Una alarma: requiere acción inmediata. El fallo de inserción es un cambio de estado crítico."
+    explanation: "Una alarma: requiere acción inmediata. El fallo de inserción es un cambio de estado crítico.",
+    ref: "Tema 9, slide 27"
   },
 
   // GESTIÓN DE PROBLEMAS
@@ -361,7 +389,8 @@ window.QUESTIONS_T9 = [
       "Un riesgo identificado"
     ],
     correct: 1,
-    explanation: "Problema: causa real, o potencial, de una o más incidencias."
+    explanation: "Problema: causa real, o potencial, de una o más incidencias.",
+    ref: "Tema 9, slide 30"
   },
   {
     topic: 9,
@@ -373,7 +402,8 @@ window.QUESTIONS_T9 = [
       "Una incidencia repetitiva"
     ],
     correct: 1,
-    explanation: "Error conocido: problema que ha sido analizado pero aún no ha sido resuelto."
+    explanation: "Error conocido: problema que ha sido analizado pero aún no ha sido resuelto.",
+    ref: "Tema 9, slide 30"
   },
   {
     topic: 9,
@@ -385,7 +415,8 @@ window.QUESTIONS_T9 = [
       "Gestión de incidencias es proactiva, gestión de problemas es reactiva"
     ],
     correct: 0,
-    explanation: "Gestión de problemas: práctica proactiva (busca causas). Gestión de incidencias: práctica reactiva (resuelve la interrupción)."
+    explanation: "Gestión de problemas: práctica proactiva (busca causas). Gestión de incidencias: práctica reactiva (resuelve la interrupción).",
+    ref: "Tema 9, slide 31"
   },
   {
     topic: 9,
@@ -397,7 +428,8 @@ window.QUESTIONS_T9 = [
       "Petición, gestión, validación"
     ],
     correct: 0,
-    explanation: "Fases de gestión de problemas: Identificación (por incidencias, tendencias, riesgos), Control del problema (solución temporal, análisis profundo), y Control de errores (verificar soluciones)."
+    explanation: "Fases de gestión de problemas: Identificación (por incidencias, tendencias, riesgos), Control del problema (solución temporal, análisis profundo), y Control de errores (verificar soluciones).",
+    ref: "Tema 9, slide 32"
   },
   {
     topic: 9,
@@ -409,7 +441,8 @@ window.QUESTIONS_T9 = [
       "Una solución solo aplicable al desarrollo"
     ],
     correct: 1,
-    explanation: "Solución temporal (workaround): solución que reduce o elimina el impacto de una incidencia o problema, para la cual aún no está disponible una solución definitiva. Es una buena práctica."
+    explanation: "Solución temporal (workaround): solución que reduce o elimina el impacto de una incidencia o problema, para la cual aún no está disponible una solución definitiva. Es una buena práctica.",
+    ref: "Tema 9, slide 33"
   },
 
   // GESTIÓN DE ENTREGAS / RELEASE
@@ -423,7 +456,8 @@ window.QUESTIONS_T9 = [
       "Una petición de servicio"
     ],
     correct: 1,
-    explanation: "Release (entrega): una versión de un servicio, un CI, o un grupo de CIs, que se disponen para su uso. Puede incluir componentes técnicos, formación y documentación."
+    explanation: "Release (entrega): una versión de un servicio, un CI, o un grupo de CIs, que se disponen para su uso. Puede incluir componentes técnicos, formación y documentación.",
+    ref: "Tema 9, slide 34"
   },
   {
     topic: 9,
@@ -435,7 +469,8 @@ window.QUESTIONS_T9 = [
       "Negociar contratos con proveedores"
     ],
     correct: 1,
-    explanation: "Gestión de Entregas: hace que los nuevos servicios, y las modificaciones a servicios existentes, estén disponibles para su uso."
+    explanation: "Gestión de Entregas: hace que los nuevos servicios, y las modificaciones a servicios existentes, estén disponibles para su uso.",
+    ref: "Tema 9, slide 34"
   },
 
   // CATÁLOGO DE SERVICIOS
@@ -449,7 +484,8 @@ window.QUESTIONS_T9 = [
       "Resolver incidencias"
     ],
     correct: 0,
-    explanation: "Gestión del catálogo de servicios: provee un único punto de información consistente de todos los servicios que se ofrecen. Proporciona una vista adecuada a cada tipo de audiencia."
+    explanation: "Gestión del catálogo de servicios: provee un único punto de información consistente de todos los servicios que se ofrecen. Proporciona una vista adecuada a cada tipo de audiencia.",
+    ref: "Tema 9, slide 38"
   },
   {
     topic: 9,
@@ -461,7 +497,8 @@ window.QUESTIONS_T9 = [
       "Los servicios en diseño"
     ],
     correct: 1,
-    explanation: "El catálogo de servicios son los servicios que están disponibles actualmente. Forma parte del Portfolio de Servicios (junto a Servicios Retirados y Servicios en Diseño/Transición)."
+    explanation: "El catálogo de servicios son los servicios que están disponibles actualmente. Forma parte del Portfolio de Servicios (junto a Servicios Retirados y Servicios en Diseño/Transición).",
+    ref: "Tema 9, slide 39"
   },
   {
     topic: 9,
@@ -473,7 +510,8 @@ window.QUESTIONS_T9 = [
       "Vista de la competencia"
     ],
     correct: 3,
-    explanation: "Vistas personalizadas: Vistas de usuario, Vistas de cliente y Vistas para IT (o clientes IT). No existe una vista \"de la competencia\"."
+    explanation: "Vistas personalizadas: Vistas de usuario, Vistas de cliente y Vistas para IT (o clientes IT). No existe una vista \"de la competencia\".",
+    ref: "Tema 9, slide 40"
   },
 
   // GESTIÓN DE CONFIGURACIÓN
@@ -487,7 +525,8 @@ window.QUESTIONS_T9 = [
       "Crear catálogos de servicios"
     ],
     correct: 1,
-    explanation: "Gestión de Configuración: asegurar que la información sobre configuración es exacta y fiable, y que está disponible cuando hace falta. Incluye información sobre CIs y la relación entre ellos."
+    explanation: "Gestión de Configuración: asegurar que la información sobre configuración es exacta y fiable, y que está disponible cuando hace falta. Incluye información sobre CIs y la relación entre ellos.",
+    ref: "Tema 9, slide 43"
   },
   {
     topic: 9,
@@ -499,7 +538,8 @@ window.QUESTIONS_T9 = [
       "Sólo servidores"
     ],
     correct: 1,
-    explanation: "Las personas, los documentos, los diagramas de arquitectura… también son CIs. Un CI es todo aquel ítem cuya información está controlada por esta práctica."
+    explanation: "Las personas, los documentos, los diagramas de arquitectura… también son CIs. Un CI es todo aquel ítem cuya información está controlada por esta práctica.",
+    ref: "Tema 9, slide 43"
   },
 
   // CONTINUIDAD DEL SERVICIO
@@ -513,7 +553,8 @@ window.QUESTIONS_T9 = [
       "Definir la estrategia comercial"
     ],
     correct: 0,
-    explanation: "Gestión de la Continuidad del Servicio: asegura la disponibilidad y rendimiento de un servicio a niveles suficientes en caso de desastre. Provee resiliencia organizacional."
+    explanation: "Gestión de la Continuidad del Servicio: asegura la disponibilidad y rendimiento de un servicio a niveles suficientes en caso de desastre. Provee resiliencia organizacional.",
+    ref: "Tema 9, slide 48"
   },
   {
     topic: 9,
@@ -525,7 +566,8 @@ window.QUESTIONS_T9 = [
       "Recovery Test Output"
     ],
     correct: 1,
-    explanation: "RTO (Recovery Time Objective): máximo tiempo en el que la interrupción del negocio impacta la organización; tiempo máximo en que un servicio o producto puede estar sin operar."
+    explanation: "RTO (Recovery Time Objective): máximo tiempo en el que la interrupción del negocio impacta la organización; tiempo máximo en que un servicio o producto puede estar sin operar.",
+    ref: "Tema 9, slide 50"
   },
   {
     topic: 9,
@@ -537,7 +579,8 @@ window.QUESTIONS_T9 = [
       "Recovery Plan Owner"
     ],
     correct: 1,
-    explanation: "RPO (Recovery Point Objective): estado de información que se debe recuperar, para que se pueda volver a operar sobre ella."
+    explanation: "RPO (Recovery Point Objective): estado de información que se debe recuperar, para que se pueda volver a operar sobre ella.",
+    ref: "Tema 9, slide 50"
   },
   {
     topic: 9,
@@ -549,7 +592,8 @@ window.QUESTIONS_T9 = [
       "Best Internal Approach"
     ],
     correct: 1,
-    explanation: "BIA (Business Impact Analysis): identifica las Funciones Vitales del Negocio (VBFs) y sus requisitos en caso de desastre, como tiempos y puntos de recuperación."
+    explanation: "BIA (Business Impact Analysis): identifica las Funciones Vitales del Negocio (VBFs) y sus requisitos en caso de desastre, como tiempos y puntos de recuperación.",
+    ref: "Tema 9, slide 51"
   },
   {
     topic: 9,
@@ -561,7 +605,8 @@ window.QUESTIONS_T9 = [
       "Cuando lo decide el sponsor"
     ],
     correct: 1,
-    explanation: "Gestión de continuidad: se activa sobre eventos realmente significativos, más incluso que las \"incidencias mayores\". Incidencia < Incidencia mayor < Desastre."
+    explanation: "Gestión de continuidad: se activa sobre eventos realmente significativos, más incluso que las \"incidencias mayores\". Incidencia < Incidencia mayor < Desastre.",
+    ref: "Tema 9, slide 52"
   },
 
   // SERVICE DESK
@@ -575,7 +620,8 @@ window.QUESTIONS_T9 = [
       "Aprobar cambios"
     ],
     correct: 1,
-    explanation: "Service Desk: captura las demandas de resolución de incidencias y las peticiones de servicio. Debe ser el punto de contacto único entre un proveedor de servicio y todos sus usuarios."
+    explanation: "Service Desk: captura las demandas de resolución de incidencias y las peticiones de servicio. Debe ser el punto de contacto único entre un proveedor de servicio y todos sus usuarios.",
+    ref: "Tema 9, slide 58"
   },
   {
     topic: 9,
@@ -587,7 +633,8 @@ window.QUESTIONS_T9 = [
       "Únicamente por correo electrónico"
     ],
     correct: 1,
-    explanation: "El Service Desk puede ser local, centralizado o virtual. Se está introduciendo automatización y bots."
+    explanation: "El Service Desk puede ser local, centralizado o virtual. Se está introduciendo automatización y bots.",
+    ref: "Tema 9, slide 59"
   },
   {
     topic: 9,
@@ -599,7 +646,8 @@ window.QUESTIONS_T9 = [
       "Omnicanalidad sólo se aplica a redes sociales"
     ],
     correct: 1,
-    explanation: "Multicanalidad: email, teléfono, formulario web, documento, redes sociales, con trazabilidad entre ellas. Omnicanalidad: el cliente o usuario \"se siente\" atendido igual por cualquiera de los medios."
+    explanation: "Multicanalidad: email, teléfono, formulario web, documento, redes sociales, con trazabilidad entre ellas. Omnicanalidad: el cliente o usuario \"se siente\" atendido igual por cualquiera de los medios.",
+    ref: "Tema 9, slide 60"
   },
 
   // GESTIÓN DE NIVELES DE SERVICIO
@@ -613,7 +661,8 @@ window.QUESTIONS_T9 = [
       "Definir la estructura organizativa"
     ],
     correct: 0,
-    explanation: "Gestión de Niveles de Servicio: se asegura de establecer objetivos de niveles de servicio basados en el negocio, y que la entrega del servicio se monitoriza y gestiona de acuerdo a esos niveles."
+    explanation: "Gestión de Niveles de Servicio: se asegura de establecer objetivos de niveles de servicio basados en el negocio, y que la entrega del servicio se monitoriza y gestiona de acuerdo a esos niveles.",
+    ref: "Tema 9, slide 62"
   },
   {
     topic: 9,
@@ -625,7 +674,8 @@ window.QUESTIONS_T9 = [
       "La política de seguridad"
     ],
     correct: 1,
-    explanation: "Nivel de Servicio: acuerdo documentado entre un proveedor de servicio y un cliente, que identifica tanto los servicios requeridos como los niveles de servicio esperados."
+    explanation: "Nivel de Servicio: acuerdo documentado entre un proveedor de servicio y un cliente, que identifica tanto los servicios requeridos como los niveles de servicio esperados.",
+    ref: "Tema 9, slide 63"
   },
   {
     topic: 9,
@@ -637,7 +687,8 @@ window.QUESTIONS_T9 = [
       "Cuando el cliente y el usuario discrepan"
     ],
     correct: 1,
-    explanation: "Efecto sandía: las métricas mal tomadas no representan el valor aportado. P.ej. un servicio disponible al 99,5% del tiempo, pero indisponible justo cuando el cliente tenía picos máximos de transacciones."
+    explanation: "Efecto sandía: las métricas mal tomadas no representan el valor aportado. P.ej. un servicio disponible al 99,5% del tiempo, pero indisponible justo cuando el cliente tenía picos máximos de transacciones.",
+    ref: "Tema 9, slide 65"
   },
   {
     topic: 9,
@@ -649,7 +700,8 @@ window.QUESTIONS_T9 = [
       "Aplicar el mismo ANS a todos los servicios"
     ],
     correct: 0,
-    explanation: "Cómo escribir un ANS: referido a un servicio concreto, mide resultados (no trabajo operativo), supone un acuerdo medible, expresado en términos sencillos de negocio."
+    explanation: "Cómo escribir un ANS: referido a un servicio concreto, mide resultados (no trabajo operativo), supone un acuerdo medible, expresado en términos sencillos de negocio.",
+    ref: "Tema 9, slide 64"
   },
 
   // GESTIÓN DE PETICIONES
@@ -663,7 +715,8 @@ window.QUESTIONS_T9 = [
       "Una propuesta de cambio organizativo"
     ],
     correct: 1,
-    explanation: "Petición (Service Request): petición de un usuario o representante de usuarios que inicia una acción de servicio acordada como parte de la entrega del servicio."
+    explanation: "Petición (Service Request): petición de un usuario o representante de usuarios que inicia una acción de servicio acordada como parte de la entrega del servicio.",
+    ref: "Tema 9, slide 68"
   },
   {
     topic: 9,
@@ -675,7 +728,8 @@ window.QUESTIONS_T9 = [
       "Reportar la caída del servicio (interrupción no planificada)"
     ],
     correct: 3,
-    explanation: "Las peticiones son acciones acordadas y planificadas (informes, recursos, accesos, quejas/feedback). Reportar una interrupción es una incidencia, no una petición."
+    explanation: "Las peticiones son acciones acordadas y planificadas (informes, recursos, accesos, quejas/feedback). Reportar una interrupción es una incidencia, no una petición.",
+    ref: "Tema 9, slide 12"
   },
 
   // VALIDACIÓN Y PRUEBA
@@ -689,7 +743,8 @@ window.QUESTIONS_T9 = [
       "Calcular el ROI"
     ],
     correct: 0,
-    explanation: "Validación y prueba del servicio: asegura que los servicios y productos cumplen con sus requisitos. Registra los criterios de aceptación y comprueba que quedan satisfechos."
+    explanation: "Validación y prueba del servicio: asegura que los servicios y productos cumplen con sus requisitos. Registra los criterios de aceptación y comprueba que quedan satisfechos.",
+    ref: "Tema 9, slide 71"
   },
   {
     topic: 9,
@@ -701,7 +756,8 @@ window.QUESTIONS_T9 = [
       "Prueba de cumplimiento (compliance)"
     ],
     correct: 2,
-    explanation: "Pruebas funcionales: unitarias, de sistema, de integración, de regresión, de aceptación. Las pruebas de rendimiento, seguridad y compliance son no funcionales (de garantía)."
+    explanation: "Pruebas funcionales: unitarias, de sistema, de integración, de regresión, de aceptación. Las pruebas de rendimiento, seguridad y compliance son no funcionales (de garantía).",
+    ref: "Tema 9, slide 73"
   },
   {
     topic: 9,
@@ -713,7 +769,8 @@ window.QUESTIONS_T9 = [
       "Prueba de aceptación"
     ],
     correct: 2,
-    explanation: "Pruebas no funcionales/de garantía: rendimiento y capacidad, seguridad, cumplimiento (compliance), operacionales."
+    explanation: "Pruebas no funcionales/de garantía: rendimiento y capacidad, seguridad, cumplimiento (compliance), operacionales.",
+    ref: "Tema 9, slide 74"
   },
 
   // DISEÑO DEL SERVICIO
@@ -727,7 +784,8 @@ window.QUESTIONS_T9 = [
       "Calcular impuestos"
     ],
     correct: 0,
-    explanation: "Diseño del servicio: asegura que los productos y servicios son adecuados para su propósito (fit for purpose) y se pueden usar como se pretendía (fit for use)."
+    explanation: "Diseño del servicio: asegura que los productos y servicios son adecuados para su propósito (fit for purpose) y se pueden usar como se pretendía (fit for use).",
+    ref: "Tema 9, slide 53"
   },
   {
     topic: 9,
@@ -739,7 +797,8 @@ window.QUESTIONS_T9 = [
       "Únicamente los requisitos legales"
     ],
     correct: 1,
-    explanation: "Diseño incluye componentes técnicos, tecnología, comunicaciones, personas, información, suministros necesarios. Al diseñar tener en cuenta métricas, CX (Customer Experience) y UX (User Experience)."
+    explanation: "Diseño incluye componentes técnicos, tecnología, comunicaciones, personas, información, suministros necesarios. Al diseñar tener en cuenta métricas, CX (Customer Experience) y UX (User Experience).",
+    ref: "Tema 9, slide 53"
   },
   {
     topic: 9,
@@ -751,6 +810,7 @@ window.QUESTIONS_T9 = [
       "Gestión financiera"
     ],
     correct: 3,
-    explanation: "La gestión financiera es una práctica general de gestión (Tema 10), no una práctica de gestión de servicios. Las 17 prácticas de servicios incluyen disponibilidad, cambios, incidencias, problemas, etc."
+    explanation: "La gestión financiera es una práctica general de gestión (Tema 10), no una práctica de gestión de servicios. Las 17 prácticas de servicios incluyen disponibilidad, cambios, incidencias, problemas, etc.",
+    ref: "Tema 9, slide 0"
   }
 ];

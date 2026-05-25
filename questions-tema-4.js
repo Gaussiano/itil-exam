@@ -10,7 +10,8 @@ window.QUESTIONS_T4 = [
       "Una métrica de rendimiento clave"
     ],
     correct: 1,
-    explanation: "Principio rector: recomendación que guía a una organización en cualquier circunstancia, aunque aparezcan cambios o nuevos retos. Se acepta como principio universal y duradero."
+    explanation: "Principio rector: recomendación que guía a una organización en cualquier circunstancia, aunque aparezcan cambios o nuevos retos. Se acepta como principio universal y duradero.",
+    ref: "Tema 4, slide 0"
   },
   {
     topic: 4,
@@ -22,7 +23,8 @@ window.QUESTIONS_T4 = [
       "9"
     ],
     correct: 2,
-    explanation: "Son 7 principios rectores: Enfoque en el Valor, Empieza donde estás, Progresa iterativamente con feedback, Colabora y promueve la visibilidad, Piensa y trabaja de forma holística, Mantener la simplicidad y practicidad, y Optimiza y automatiza."
+    explanation: "Son 7 principios rectores: Enfoque en el Valor, Empieza donde estás, Progresa iterativamente con feedback, Colabora y promueve la visibilidad, Piensa y trabaja de forma holística, Mantener la simplicidad y practicidad, y Optimiza y automatiza.",
+    ref: "Tema 4, slide 1"
   },
   {
     topic: 4,
@@ -34,7 +36,8 @@ window.QUESTIONS_T4 = [
       "Maximiza la documentación"
     ],
     correct: 3,
-    explanation: "Maximizar la documentación no es un principio rector. Los 7 principios son: Foco en el valor, Empieza donde estás, Iterativo con feedback, Colabora y promueve visibilidad, Holístico, Simplicidad y practicidad, y Optimiza/automatiza."
+    explanation: "Maximizar la documentación no es un principio rector. Los 7 principios son: Foco en el valor, Empieza donde estás, Iterativo con feedback, Colabora y promueve visibilidad, Holístico, Simplicidad y practicidad, y Optimiza/automatiza.",
+    ref: "Tema 4, slide 1"
   },
   {
     topic: 4,
@@ -46,7 +49,8 @@ window.QUESTIONS_T4 = [
       "Optimiza y automatiza"
     ],
     correct: 0,
-    explanation: "Enfoque en el Valor: todo lo que hacemos se dirige, directa o indirectamente, a entregar valor a los interesados. Nos enfocamos en la experiencia de usuarios y clientes."
+    explanation: "Enfoque en el Valor: todo lo que hacemos se dirige, directa o indirectamente, a entregar valor a los interesados. Nos enfocamos en la experiencia de usuarios y clientes.",
+    ref: "Tema 4, slide 2"
   },
   {
     topic: 4,
@@ -58,7 +62,8 @@ window.QUESTIONS_T4 = [
       "Piensa holísticamente"
     ],
     correct: 0,
-    explanation: "Empieza donde estás: no empezamos de cero si podemos aprovechar trabajo ya realizado. Los proyectos arrancan sobre líneas base que comprendemos."
+    explanation: "Empieza donde estás: no empezamos de cero si podemos aprovechar trabajo ya realizado. Los proyectos arrancan sobre líneas base que comprendemos.",
+    ref: "Tema 4, slide 3"
   },
   {
     topic: 4,
@@ -70,7 +75,8 @@ window.QUESTIONS_T4 = [
       "Colabora y promueve la visibilidad"
     ],
     correct: 0,
-    explanation: "Progresa iterativamente con feedback: sin \"big bangs\" ni planificaciones predictivas a largo plazo. Trabajar en base a sprints y feedback."
+    explanation: "Progresa iterativamente con feedback: sin \"big bangs\" ni planificaciones predictivas a largo plazo. Trabajar en base a sprints y feedback.",
+    ref: "Tema 4, slide 4"
   },
   {
     topic: 4,
@@ -82,7 +88,8 @@ window.QUESTIONS_T4 = [
       "Que la documentación debe destruirse cuando deja de ser útil"
     ],
     correct: 1,
-    explanation: "Pertenece a \"Colabora y promueve la visibilidad\". Radiadores de información (visibles para todos) en lugar de \"neveras\" (información escondida)."
+    explanation: "Pertenece a \"Colabora y promueve la visibilidad\". Radiadores de información (visibles para todos) en lugar de \"neveras\" (información escondida).",
+    ref: "Tema 4, slide 5"
   },
   {
     topic: 4,
@@ -94,7 +101,8 @@ window.QUESTIONS_T4 = [
       "Empieza donde estás"
     ],
     correct: 2,
-    explanation: "Piensa y trabaja de forma holística: el conjunto total de elementos de un sistema es mucho más que la suma de cada uno individualmente. Todo interactúa con todo."
+    explanation: "Piensa y trabaja de forma holística: el conjunto total de elementos de un sistema es mucho más que la suma de cada uno individualmente. Todo interactúa con todo.",
+    ref: "Tema 4, slide 6"
   },
   {
     topic: 4,
@@ -106,7 +114,8 @@ window.QUESTIONS_T4 = [
       "Piensa holísticamente"
     ],
     correct: 0,
-    explanation: "Mantener la simplicidad y practicidad: si no aporta, no lo hagas. Diseño tan sencillo como sea posible, sin intentar cubrir el 100% de los casos excepcionales."
+    explanation: "Mantener la simplicidad y practicidad: si no aporta, no lo hagas. Diseño tan sencillo como sea posible, sin intentar cubrir el 100% de los casos excepcionales.",
+    ref: "Tema 4, slide 39"
   },
   {
     topic: 4,
@@ -118,7 +127,8 @@ window.QUESTIONS_T4 = [
       "Empieza donde estás"
     ],
     correct: 1,
-    explanation: "Pertenece a \"Mantener la simplicidad y practicidad\": no gold plating, solución para requisitos actuales, no \"por si acaso\"."
+    explanation: "Pertenece a \"Mantener la simplicidad y practicidad\": no gold plating, solución para requisitos actuales, no \"por si acaso\".",
+    ref: "Tema 4, slide 7"
   },
   {
     topic: 4,
@@ -130,7 +140,8 @@ window.QUESTIONS_T4 = [
       "Documentar exhaustivamente"
     ],
     correct: 1,
-    explanation: "Consejo del principio: Simplifica y optimiza ANTES de automatizar. Automatizar un proceso ineficiente solo perpetúa la ineficiencia."
+    explanation: "Consejo del principio: Simplifica y optimiza ANTES de automatizar. Automatizar un proceso ineficiente solo perpetúa la ineficiencia.",
+    ref: "Tema 4, slide 49"
   },
   {
     topic: 4,
@@ -142,7 +153,8 @@ window.QUESTIONS_T4 = [
       "Comparable con otras"
     ],
     correct: 1,
-    explanation: "Las métricas se toman para saber algo. Nunca una métrica puede convertirse en un objetivo."
+    explanation: "Las métricas se toman para saber algo. Nunca una métrica puede convertirse en un objetivo.",
+    ref: "Tema 4, slide 20"
   },
   {
     topic: 4,
@@ -154,7 +166,8 @@ window.QUESTIONS_T4 = [
       "\"¿Cuándo se entrega?\""
     ],
     correct: 1,
-    explanation: "Todas las actividades llevan, directa o indirectamente, a crear valor para la organización, sus clientes u otros interesados. Pregunta clave: \"¿para quién lo hacemos?\"."
+    explanation: "Todas las actividades llevan, directa o indirectamente, a crear valor para la organización, sus clientes u otros interesados. Pregunta clave: \"¿para quién lo hacemos?\".",
+    ref: "Tema 4, slide 8"
   },
   {
     topic: 4,
@@ -166,7 +179,8 @@ window.QUESTIONS_T4 = [
       "Un prototipo de papel para presentaciones"
     ],
     correct: 1,
-    explanation: "En cada iteración se trata de obtener un Producto Mínimo Viable: una versión del producto final que permite aprender y validar el avance con el mínimo esfuerzo."
+    explanation: "En cada iteración se trata de obtener un Producto Mínimo Viable: una versión del producto final que permite aprender y validar el avance con el mínimo esfuerzo.",
+    ref: "Tema 4, slide 29"
   },
   {
     topic: 4,
@@ -178,7 +192,8 @@ window.QUESTIONS_T4 = [
       "trabajo conjunto"
     ],
     correct: 1,
-    explanation: "Consejo del principio Colabora y promueve la visibilidad: colaboración no significa consenso. Hay que adaptar el mensaje y el medio en función del oyente y tomar decisiones basadas en datos visibles."
+    explanation: "Consejo del principio Colabora y promueve la visibilidad: colaboración no significa consenso. Hay que adaptar el mensaje y el medio en función del oyente y tomar decisiones basadas en datos visibles.",
+    ref: "Tema 4, slide 36"
   },
   {
     topic: 4,
@@ -190,7 +205,8 @@ window.QUESTIONS_T4 = [
       "Únicamente la atención al cliente"
     ],
     correct: 1,
-    explanation: "Optimiza y automatiza: automatiza aquello en lo que los humanos no aporten un valor añadido. No todo se puede automatizar. Las personas tendrán más tiempo para aportar creatividad e imaginación."
+    explanation: "Optimiza y automatiza: automatiza aquello en lo que los humanos no aporten un valor añadido. No todo se puede automatizar. Las personas tendrán más tiempo para aportar creatividad e imaginación.",
+    ref: "Tema 4, slide 44"
   },
   {
     topic: 4,
@@ -202,7 +218,8 @@ window.QUESTIONS_T4 = [
       "Empezar siempre con tecnología nueva"
     ],
     correct: 1,
-    explanation: "Consejos para \"Empieza donde estás\": evalúa lo existente de forma objetiva, no inventes la rueda cada vez, aplica gestión de riesgos, a veces no se puede reutilizar."
+    explanation: "Consejos para \"Empieza donde estás\": evalúa lo existente de forma objetiva, no inventes la rueda cada vez, aplica gestión de riesgos, a veces no se puede reutilizar.",
+    ref: "Tema 4, slide 22"
   },
   {
     topic: 4,
@@ -214,7 +231,8 @@ window.QUESTIONS_T4 = [
       "Sin documentación"
     ],
     correct: 2,
-    explanation: "Rápido en un timebox no significa \"precipitado\" o \"de baja calidad\"."
+    explanation: "Rápido en un timebox no significa \"precipitado\" o \"de baja calidad\".",
+    ref: "Tema 4, slide 29"
   },
   {
     topic: 4,
@@ -226,7 +244,8 @@ window.QUESTIONS_T4 = [
       "Piensa holísticamente"
     ],
     correct: 1,
-    explanation: "Consejos para \"Mantener la simplicidad y practicidad\": el arte de la simplicidad, hacer menos cosas pero hacerlas mejor, respetar el tiempo de los implicados."
+    explanation: "Consejos para \"Mantener la simplicidad y practicidad\": el arte de la simplicidad, hacer menos cosas pero hacerlas mejor, respetar el tiempo de los implicados.",
+    ref: "Tema 4, slide 43"
   },
   {
     topic: 4,
@@ -238,7 +257,8 @@ window.QUESTIONS_T4 = [
       "Hay que dejar de medir las incidencias"
     ],
     correct: 2,
-    explanation: "Una métrica aislada no da la respuesta. Pocas incidencias podrían significar que va bien… o que los usuarios no las reportan. Hay que analizar las métricas en contexto."
+    explanation: "Una métrica aislada no da la respuesta. Pocas incidencias podrían significar que va bien… o que los usuarios no las reportan. Hay que analizar las métricas en contexto.",
+    ref: "Tema 4, slide 19"
   },
   {
     topic: 4,
@@ -250,7 +270,8 @@ window.QUESTIONS_T4 = [
       "Tratar a todos los clientes por igual sin segmentar"
     ],
     correct: 1,
-    explanation: "Consejos: conocer cómo los consumidores usan cada servicio, promover que los empleados piensen en la aportación de valor, enfocarse en el valor en la construcción, operación y mejora."
+    explanation: "Consejos: conocer cómo los consumidores usan cada servicio, promover que los empleados piensen en la aportación de valor, enfocarse en el valor en la construcción, operación y mejora.",
+    ref: "Tema 4, slide 12"
   },
   {
     topic: 4,
@@ -262,7 +283,8 @@ window.QUESTIONS_T4 = [
       "Cara a cara + radiador de información"
     ],
     correct: 3,
-    explanation: "Los medios de comunicación, de menos a más ricos: documentos, e-mail, conversación telefónica, videoconferencia, cara a cara, y cara a cara + radiador de información."
+    explanation: "Los medios de comunicación, de menos a más ricos: documentos, e-mail, conversación telefónica, videoconferencia, cara a cara, y cara a cara + radiador de información.",
+    ref: "Tema 4, slide 33"
   },
   {
     topic: 4,
@@ -274,7 +296,8 @@ window.QUESTIONS_T4 = [
       "Reducir la implicación del cliente"
     ],
     correct: 1,
-    explanation: "Iterar y obtener feedback permite: flexibilidad (la siguiente iteración es adaptable), respuestas más rápidas, descubrir y responder a errores antes, mejora continua."
+    explanation: "Iterar y obtener feedback permite: flexibilidad (la siguiente iteración es adaptable), respuestas más rápidas, descubrir y responder a errores antes, mejora continua.",
+    ref: "Tema 4, slide 27"
   },
   {
     topic: 4,
@@ -286,7 +309,8 @@ window.QUESTIONS_T4 = [
       "Piensa holísticamente"
     ],
     correct: 0,
-    explanation: "Consejo del principio iterativo: evita la \"parálisis por análisis\". Al inicio obtener la información suficiente para empezar, no toda la necesaria para terminar."
+    explanation: "Consejo del principio iterativo: evita la \"parálisis por análisis\". Al inicio obtener la información suficiente para empezar, no toda la necesaria para terminar.",
+    ref: "Tema 4, slide 28"
   },
   {
     topic: 4,
@@ -298,7 +322,8 @@ window.QUESTIONS_T4 = [
       "Despedir a personal manual"
     ],
     correct: 1,
-    explanation: "Pasos del camino hacia la automatización: 1) entender el contexto; 2) analizar la línea base actual; 3) acordar el objetivo; 4) asegurar la participación de los interesados; 5) automatizar de forma iterativa; 6) monitorizar el impacto."
+    explanation: "Pasos del camino hacia la automatización: 1) entender el contexto; 2) analizar la línea base actual; 3) acordar el objetivo; 4) asegurar la participación de los interesados; 5) automatizar de forma iterativa; 6) monitorizar el impacto.",
+    ref: "Tema 4, slide 45"
   },
   {
     topic: 4,
@@ -310,7 +335,8 @@ window.QUESTIONS_T4 = [
       "Piensa holísticamente"
     ],
     correct: 2,
-    explanation: "\"Dar visibilidad al trabajo\" pertenece a Colabora y promueve la visibilidad: irradiar el avance del trabajo, mostrar cómo fluye, identificar cuellos de botella (o capacidad excesiva) y descubrir desperdicios."
+    explanation: "\"Dar visibilidad al trabajo\" pertenece a Colabora y promueve la visibilidad: irradiar el avance del trabajo, mostrar cómo fluye, identificar cuellos de botella (o capacidad excesiva) y descubrir desperdicios.",
+    ref: "Tema 4, slide 35"
   },
   {
     topic: 4,
@@ -322,7 +348,8 @@ window.QUESTIONS_T4 = [
       "El proveedor externo"
     ],
     correct: 1,
-    explanation: "Interesado: aquél que se ve impactado por el proyecto. \"Impactado\" es mejor traducción que \"interesado\"."
+    explanation: "Interesado: aquél que se ve impactado por el proyecto. \"Impactado\" es mejor traducción que \"interesado\".",
+    ref: "Tema 4, slide 32"
   },
   {
     topic: 4,
@@ -334,7 +361,8 @@ window.QUESTIONS_T4 = [
       "Enfoque en el valor"
     ],
     correct: 0,
-    explanation: "Consejos para Piensa y trabaja de forma holística: reconoce la complejidad de algunos sistemas, la colaboración es clave, investigar la interacción entre elementos, aplicar Design Thinking."
+    explanation: "Consejos para Piensa y trabaja de forma holística: reconoce la complejidad de algunos sistemas, la colaboración es clave, investigar la interacción entre elementos, aplicar Design Thinking.",
+    ref: "Tema 4, slide 38"
   },
   {
     topic: 4,
@@ -346,7 +374,8 @@ window.QUESTIONS_T4 = [
       "Esperar a tener todos los recursos"
     ],
     correct: 1,
-    explanation: "Empieza donde estás: construir algo nuevo no implica desechar todo lo existente. ¿Podemos reutilizarlo? ¿Mejorarlo? ¿Potenciarlo?"
+    explanation: "Empieza donde estás: construir algo nuevo no implica desechar todo lo existente. ¿Podemos reutilizarlo? ¿Mejorarlo? ¿Potenciarlo?",
+    ref: "Tema 4, slide 17"
   },
   {
     topic: 4,
@@ -358,6 +387,7 @@ window.QUESTIONS_T4 = [
       "Vender por todos los canales posibles"
     ],
     correct: 1,
-    explanation: "La experiencia de cliente (CX) y omnicanalidad implican que el cliente \"se siente\" atendido igual por cualquier medio. El cliente interactúa con la empresa de forma consistente."
+    explanation: "La experiencia de cliente (CX) y omnicanalidad implican que el cliente \"se siente\" atendido igual por cualquier medio. El cliente interactúa con la empresa de forma consistente.",
+    ref: "Tema 4, slide 10"
   }
 ];

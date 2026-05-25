@@ -14,7 +14,8 @@ window.QUESTIONS_T5_T8 = [
       "Que no requiere metodología"
     ],
     correct: 1,
-    explanation: "En Agile ITSM se asume que nuestra metodología de desarrollo (y entrega) es ágil, con valores y principios ágiles y uso de radiadores de información."
+    explanation: "En Agile ITSM se asume que nuestra metodología de desarrollo (y entrega) es ágil, con valores y principios ágiles y uso de radiadores de información.",
+    ref: "Tema 5, slide 0"
   },
   {
     topic: 5,
@@ -26,7 +27,8 @@ window.QUESTIONS_T5_T8 = [
       "Coste, beneficio, plazo"
     ],
     correct: 1,
-    explanation: "La triple restricción clásica en gestión de proyectos relaciona alcance, tiempo y coste; bajo enfoque ágil, suelen fijarse tiempo y coste y variar el alcance."
+    explanation: "La triple restricción clásica en gestión de proyectos relaciona alcance, tiempo y coste; bajo enfoque ágil, suelen fijarse tiempo y coste y variar el alcance.",
+    ref: "Tema 5, slide 1"
   },
   {
     topic: 5,
@@ -38,7 +40,8 @@ window.QUESTIONS_T5_T8 = [
       "Una herramienta de presupuestación"
     ],
     correct: 1,
-    explanation: "Kanban es una técnica visual basada en tableros para gestionar el flujo de trabajo, mencionada como práctica ágil dentro de Agile ITSM."
+    explanation: "Kanban es una técnica visual basada en tableros para gestionar el flujo de trabajo, mencionada como práctica ágil dentro de Agile ITSM.",
+    ref: "Tema 5, slide 0"
   },
   {
     topic: 5,
@@ -50,7 +53,8 @@ window.QUESTIONS_T5_T8 = [
       "Medir la satisfacción del usuario"
     ],
     correct: 1,
-    explanation: "MoSCoW es una técnica de priorización (Must, Should, Could, Won't) citada junto con Kano en el contexto de Agile ITSM."
+    explanation: "MoSCoW es una técnica de priorización (Must, Should, Could, Won't) citada junto con Kano en el contexto de Agile ITSM.",
+    ref: "Tema 5, slide 8"
   },
   {
     topic: 5,
@@ -62,7 +66,8 @@ window.QUESTIONS_T5_T8 = [
       "Un documento de planificación a largo plazo"
     ],
     correct: 1,
-    explanation: "Los sprints son iteraciones cortas con duración fija (timeboxed) que producen un incremento entregable. Es uno de los conceptos clave en Agile ITSM."
+    explanation: "Los sprints son iteraciones cortas con duración fija (timeboxed) que producen un incremento entregable. Es uno de los conceptos clave en Agile ITSM.",
+    ref: "Tema 5, slide 0"
   },
   {
     topic: 5,
@@ -74,7 +79,8 @@ window.QUESTIONS_T5_T8 = [
       "Roles en Scrum"
     ],
     correct: 1,
-    explanation: "Burndown y burnup son gráficos para el seguimiento del avance, mencionados en Agile ITSM como herramientas de visibilidad del trabajo."
+    explanation: "Burndown y burnup son gráficos para el seguimiento del avance, mencionados en Agile ITSM como herramientas de visibilidad del trabajo.",
+    ref: "Tema 5, slide 17"
   },
   {
     topic: 5,
@@ -86,7 +92,8 @@ window.QUESTIONS_T5_T8 = [
       "El órgano de gobierno"
     ],
     correct: 1,
-    explanation: "Las \"Personas\" son arquetipos representativos de usuarios utilizados para guiar el diseño centrado en el usuario, citadas en Agile ITSM."
+    explanation: "Las \"Personas\" son arquetipos representativos de usuarios utilizados para guiar el diseño centrado en el usuario, citadas en Agile ITSM.",
+    ref: "Tema 5, slide 12"
   },
   {
     topic: 5,
@@ -98,7 +105,8 @@ window.QUESTIONS_T5_T8 = [
       "Una arquitectura técnica"
     ],
     correct: 1,
-    explanation: "Las historias de usuario son una técnica ágil para representar requisitos desde la perspectiva del usuario, parte de Agile ITSM."
+    explanation: "Las historias de usuario son una técnica ágil para representar requisitos desde la perspectiva del usuario, parte de Agile ITSM.",
+    ref: "Tema 5, slide 13"
   },
   {
     topic: 5,
@@ -110,7 +118,8 @@ window.QUESTIONS_T5_T8 = [
       "Estimar el siguiente sprint"
     ],
     correct: 1,
-    explanation: "La retrospectiva es una reunión al final de cada sprint para reflexionar e introducir mejoras. ITIL la cita como técnica clave de mejora continua."
+    explanation: "La retrospectiva es una reunión al final de cada sprint para reflexionar e introducir mejoras. ITIL la cita como técnica clave de mejora continua.",
+    ref: "Tema 5, slide 0"
   },
   {
     topic: 5,
@@ -122,7 +131,8 @@ window.QUESTIONS_T5_T8 = [
       "Comunicación obligatoria mensual"
     ],
     correct: 1,
-    explanation: "La comunicación osmótica es la información que se absorbe estando en el mismo espacio que el equipo (escuchando conversaciones de fondo). Por eso conceptos como sala de guerra son útiles."
+    explanation: "La comunicación osmótica es la información que se absorbe estando en el mismo espacio que el equipo (escuchando conversaciones de fondo). Por eso conceptos como sala de guerra son útiles.",
+    ref: "Tema 5, slide 21"
   },
   {
     topic: 5,
@@ -134,7 +144,8 @@ window.QUESTIONS_T5_T8 = [
       "La última iteración antes del cierre"
     ],
     correct: 1,
-    explanation: "La iteración cero es una iteración preparatoria (wireframes, setup, decisiones iniciales) antes de las iteraciones de desarrollo propiamente dichas."
+    explanation: "La iteración cero es una iteración preparatoria (wireframes, setup, decisiones iniciales) antes de las iteraciones de desarrollo propiamente dichas.",
+    ref: "Tema 5, slide 16"
   },
   {
     topic: 5,
@@ -146,7 +157,8 @@ window.QUESTIONS_T5_T8 = [
       "Documentar incidencias"
     ],
     correct: 1,
-    explanation: "Elevator Pitch y Caja de Producto son técnicas ágiles para comunicar de forma sintética la propuesta de valor de un producto."
+    explanation: "Elevator Pitch y Caja de Producto son técnicas ágiles para comunicar de forma sintética la propuesta de valor de un producto.",
+    ref: "Tema 5, slide 11"
   },
 
   // ===== TEMA 6 - ACTIVIDADES CADENA DE VALOR =====
@@ -160,7 +172,8 @@ window.QUESTIONS_T5_T8 = [
       "Mejorar el servicio existente"
     ],
     correct: 1,
-    explanation: "Acoplar/Integrar: asegurar un entendimiento compartido de las necesidades de los interesados, transparencia, integración continua de conocimiento, y buenas relaciones entre todos los interesados."
+    explanation: "Acoplar/Integrar: asegurar un entendimiento compartido de las necesidades de los interesados, transparencia, integración continua de conocimiento, y buenas relaciones entre todos los interesados.",
+    ref: "Tema 6, slide 0"
   },
   {
     topic: 6,
@@ -172,7 +185,8 @@ window.QUESTIONS_T5_T8 = [
       "Niveles de servicio alcanzados"
     ],
     correct: 1,
-    explanation: "Entradas de Acoplar: portfolio actual, nuevas necesidades de interesados, feedback sobre productos y servicios, oportunidades de mercado, información de partners y proveedores."
+    explanation: "Entradas de Acoplar: portfolio actual, nuevas necesidades de interesados, feedback sobre productos y servicios, oportunidades de mercado, información de partners y proveedores.",
+    ref: "Tema 6, slide 1"
   },
   {
     topic: 6,
@@ -184,7 +198,8 @@ window.QUESTIONS_T5_T8 = [
       "Definir la estrategia corporativa"
     ],
     correct: 0,
-    explanation: "Diseño y transición: asegurar que productos y servicios cumplen con los requisitos de los interesados en cuanto a calidad, coste, tiempo y oportunidad de mercado."
+    explanation: "Diseño y transición: asegurar que productos y servicios cumplen con los requisitos de los interesados en cuanto a calidad, coste, tiempo y oportunidad de mercado.",
+    ref: "Tema 6, slide 3"
   },
   {
     topic: 6,
@@ -196,7 +211,8 @@ window.QUESTIONS_T5_T8 = [
       "Documentar requisitos"
     ],
     correct: 1,
-    explanation: "Obtener/construir: asegurar que los componentes del servicio están disponibles cuando se necesitan, y que cumplen con las especificaciones."
+    explanation: "Obtener/construir: asegurar que los componentes del servicio están disponibles cuando se necesitan, y que cumplen con las especificaciones.",
+    ref: "Tema 6, slide 6"
   },
   {
     topic: 6,
@@ -208,7 +224,8 @@ window.QUESTIONS_T5_T8 = [
       "Auditar el cumplimiento legal"
     ],
     correct: 1,
-    explanation: "Entrega y soporte: asegurar que los servicios se entregan, y se les da soporte, en consonancia con las especificaciones acordadas y las expectativas de los interesados."
+    explanation: "Entrega y soporte: asegurar que los servicios se entregan, y se les da soporte, en consonancia con las especificaciones acordadas y las expectativas de los interesados.",
+    ref: "Tema 6, slide 9"
   },
   {
     topic: 6,
@@ -220,7 +237,8 @@ window.QUESTIONS_T5_T8 = [
       "Auditar los niveles de servicio"
     ],
     correct: 1,
-    explanation: "Planificación: asegurar un entendimiento compartido de la visión, el estado actual y el avance de las 4 dimensiones, y de los productos y servicios en toda la organización."
+    explanation: "Planificación: asegurar un entendimiento compartido de la visión, el estado actual y el avance de las 4 dimensiones, y de los productos y servicios en toda la organización.",
+    ref: "Tema 6, slide 26"
   },
   {
     topic: 6,
@@ -232,7 +250,8 @@ window.QUESTIONS_T5_T8 = [
       "8"
     ],
     correct: 2,
-    explanation: "Son 7 pasos: 1) ¿Cuál es la visión? 2) ¿Dónde estamos? 3) ¿Dónde queremos estar? 4) ¿Cómo llegamos? 5) Tomar acciones 6) ¿Hemos llegado? 7) ¿Cómo insistimos?"
+    explanation: "Son 7 pasos: 1) ¿Cuál es la visión? 2) ¿Dónde estamos? 3) ¿Dónde queremos estar? 4) ¿Cómo llegamos? 5) Tomar acciones 6) ¿Hemos llegado? 7) ¿Cómo insistimos?",
+    ref: "Tema 6, slide 17"
   },
   {
     topic: 6,
@@ -244,7 +263,8 @@ window.QUESTIONS_T5_T8 = [
       "¿Dónde queremos estar?"
     ],
     correct: 1,
-    explanation: "El primer paso del modelo de mejora continua es preguntarse \"¿Cuál es la visión?\" - ¿la mejora que queremos introducir ayuda a la visión corporativa?"
+    explanation: "El primer paso del modelo de mejora continua es preguntarse \"¿Cuál es la visión?\" - ¿la mejora que queremos introducir ayuda a la visión corporativa?",
+    ref: "Tema 6, slide 15"
   },
   {
     topic: 6,
@@ -256,7 +276,8 @@ window.QUESTIONS_T5_T8 = [
       "¿Cómo llegamos?"
     ],
     correct: 0,
-    explanation: "Paso 2: ¿Dónde estamos ahora? Definimos la línea base. Si no sabemos de donde partimos, no sabremos si avanzamos."
+    explanation: "Paso 2: ¿Dónde estamos ahora? Definimos la línea base. Si no sabemos de donde partimos, no sabremos si avanzamos.",
+    ref: "Tema 6, slide 16"
   },
   {
     topic: 6,
@@ -268,7 +289,8 @@ window.QUESTIONS_T5_T8 = [
       "Definido únicamente por la dirección"
     ],
     correct: 0,
-    explanation: "El punto B debe ser SMART: Specific, Measurable, Achievable, Relevant y Time-bound. Se mejora en base al análisis de CSFs y KPIs."
+    explanation: "El punto B debe ser SMART: Specific, Measurable, Achievable, Relevant y Time-bound. Se mejora en base al análisis de CSFs y KPIs.",
+    ref: "Tema 6, slide 18"
   },
   {
     topic: 6,
@@ -280,7 +302,8 @@ window.QUESTIONS_T5_T8 = [
       "Documentar"
     ],
     correct: 1,
-    explanation: "La acción clave es la validación: ¿se cumplen los objetivos? ¿Siguen siendo relevantes? Validar ≠ verificar."
+    explanation: "La acción clave es la validación: ¿se cumplen los objetivos? ¿Siguen siendo relevantes? Validar ≠ verificar.",
+    ref: "Tema 6, slide 21"
   },
   {
     topic: 6,
@@ -292,7 +315,8 @@ window.QUESTIONS_T5_T8 = [
       "Aplicables únicamente al equipo IT"
     ],
     correct: 1,
-    explanation: "El proceso se puede ejecutar de forma tradicional o ágil. Los pasos no son una \"secuencia\" cerrada, sino que se pueden repetir."
+    explanation: "El proceso se puede ejecutar de forma tradicional o ágil. Los pasos no son una \"secuencia\" cerrada, sino que se pueden repetir.",
+    ref: "Tema 6, slide 14"
   },
   {
     topic: 6,
@@ -304,7 +328,8 @@ window.QUESTIONS_T5_T8 = [
       "Aumentar los ingresos del servicio"
     ],
     correct: 0,
-    explanation: "Mejora: asegurar la mejora continua de productos, servicios y prácticas en todas las actividades, y en las 4 dimensiones de la gestión del servicio."
+    explanation: "Mejora: asegurar la mejora continua de productos, servicios y prácticas en todas las actividades, y en las 4 dimensiones de la gestión del servicio.",
+    ref: "Tema 6, slide 30"
   },
   {
     topic: 6,
@@ -316,7 +341,8 @@ window.QUESTIONS_T5_T8 = [
       "…debe estimarse"
     ],
     correct: 2,
-    explanation: "\"Lo que no se puede medir, no se puede mejorar.\" Por eso las métricas de procesos son entrada clave a la actividad de Mejora."
+    explanation: "\"Lo que no se puede medir, no se puede mejorar.\" Por eso las métricas de procesos son entrada clave a la actividad de Mejora.",
+    ref: "Tema 6, slide 31"
   },
   {
     topic: 6,
@@ -328,7 +354,8 @@ window.QUESTIONS_T5_T8 = [
       "Códigos fuente"
     ],
     correct: 1,
-    explanation: "Salidas de entrega y soporte: servicios prestados a clientes/usuarios, contratos y acuerdos, informes de uso y rendimiento, feedback de clientes y usuarios, propuestas de mejora."
+    explanation: "Salidas de entrega y soporte: servicios prestados a clientes/usuarios, contratos y acuerdos, informes de uso y rendimiento, feedback de clientes y usuarios, propuestas de mejora.",
+    ref: "Tema 6, slide 11"
   },
   {
     topic: 6,
@@ -340,7 +367,8 @@ window.QUESTIONS_T5_T8 = [
       "Calcular el ROI"
     ],
     correct: 1,
-    explanation: "Las retrospectivas son una técnica para empujar la mejora continua, mencionada en la actividad de Mejora."
+    explanation: "Las retrospectivas son una técnica para empujar la mejora continua, mencionada en la actividad de Mejora.",
+    ref: "Tema 6, slide 12"
   },
   {
     topic: 6,
@@ -352,7 +380,8 @@ window.QUESTIONS_T5_T8 = [
       "Imponer por mandato sin pilotos"
     ],
     correct: 1,
-    explanation: "Por ejemplo, para introducir metodologías ágiles: empieza por 1 proyecto (con problemas), no blanco/negro, expande a más personas y proyectos, luego a un área o departamento, y eventualmente a la empresa."
+    explanation: "Por ejemplo, para introducir metodologías ágiles: empieza por 1 proyecto (con problemas), no blanco/negro, expande a más personas y proyectos, luego a un área o departamento, y eventualmente a la empresa.",
+    ref: "Tema 6, slide 23"
   },
 
   // ===== TEMA 7 - 4 DIMENSIONES =====
@@ -366,7 +395,8 @@ window.QUESTIONS_T5_T8 = [
       "Coste, calidad, tiempo y alcance"
     ],
     correct: 1,
-    explanation: "Las 4 dimensiones son: Organizaciones y personas, Información y tecnología, Partners y suministradores, y Flujos de valor y procesos. Las 4 están entrelazadas y se influyen mutuamente."
+    explanation: "Las 4 dimensiones son: Organizaciones y personas, Información y tecnología, Partners y suministradores, y Flujos de valor y procesos. Las 4 están entrelazadas y se influyen mutuamente.",
+    ref: "Tema 7, slide 2"
   },
   {
     topic: 7,
@@ -378,7 +408,8 @@ window.QUESTIONS_T5_T8 = [
       "Son independientes entre sí"
     ],
     correct: 1,
-    explanation: "Las 4 dimensiones influyen en TODOS los servicios prestados por la empresa, y al SVS completo. Están entrelazadas y se influyen mutuamente."
+    explanation: "Las 4 dimensiones influyen en TODOS los servicios prestados por la empresa, y al SVS completo. Están entrelazadas y se influyen mutuamente.",
+    ref: "Tema 7, slide 2"
   },
   {
     topic: 7,
@@ -390,7 +421,8 @@ window.QUESTIONS_T5_T8 = [
       "Flujos de valor y procesos"
     ],
     correct: 1,
-    explanation: "Organizaciones y personas: cultura de comunicación, enfoque ágil, transparencia, comunicación cara a cara, estilo de liderazgo facilitador, decir \"no\" a los silos."
+    explanation: "Organizaciones y personas: cultura de comunicación, enfoque ágil, transparencia, comunicación cara a cara, estilo de liderazgo facilitador, decir \"no\" a los silos.",
+    ref: "Tema 7, slide 10"
   },
   {
     topic: 7,
@@ -402,7 +434,8 @@ window.QUESTIONS_T5_T8 = [
       "Flujos de valor y procesos"
     ],
     correct: 0,
-    explanation: "Información y tecnología: BBDD, herramientas colaborativas, Cloud, Blockchain, IoT, IoE, IA, machine learning, deep learning, RPAs, Big Data, Smart Data."
+    explanation: "Información y tecnología: BBDD, herramientas colaborativas, Cloud, Blockchain, IoT, IoE, IA, machine learning, deep learning, RPAs, Big Data, Smart Data.",
+    ref: "Tema 7, slide 12"
   },
   {
     topic: 7,
@@ -414,7 +447,8 @@ window.QUESTIONS_T5_T8 = [
       "Un protocolo de comunicaciones"
     ],
     correct: 1,
-    explanation: "Cloud: un modelo para permitir acceso bajo demanda a un pool de recursos de computación, ágilmente accesibles sin apenas esfuerzo de gestión con el proveedor."
+    explanation: "Cloud: un modelo para permitir acceso bajo demanda a un pool de recursos de computación, ágilmente accesibles sin apenas esfuerzo de gestión con el proveedor.",
+    ref: "Tema 7, slide 17"
   },
   {
     topic: 7,
@@ -426,7 +460,8 @@ window.QUESTIONS_T5_T8 = [
       "Coste según modalidad \"as a Service\": pago por uso"
     ],
     correct: 2,
-    explanation: "Cloud: disponibilidad a demanda, escalable/flexible/elástica, segura de forma automática, sólo accesible mediante internet, coste según pago por uso. NO requiere grandes inversiones iniciales del cliente; ese es el modelo OPEX."
+    explanation: "Cloud: disponibilidad a demanda, escalable/flexible/elástica, segura de forma automática, sólo accesible mediante internet, coste según pago por uso. NO requiere grandes inversiones iniciales del cliente; ese es el modelo OPEX.",
+    ref: "Tema 7, slide 18"
   },
   {
     topic: 7,
@@ -438,7 +473,8 @@ window.QUESTIONS_T5_T8 = [
       "Junior, senior, experto, especialista"
     ],
     correct: 1,
-    explanation: "Niveles de relación: suministrador \"commodity\", suministrador operativo, colaborador táctico, partner estratégico."
+    explanation: "Niveles de relación: suministrador \"commodity\", suministrador operativo, colaborador táctico, partner estratégico.",
+    ref: "Tema 7, slide 21"
   },
   {
     topic: 7,
@@ -450,7 +486,8 @@ window.QUESTIONS_T5_T8 = [
       "Color corporativo del partner"
     ],
     correct: 3,
-    explanation: "Factores para gestión de suministradores: foco estratégico, cultura corporativa, escasez de recursos/falta de expertise, coste, restricciones externas, patrones de demanda."
+    explanation: "Factores para gestión de suministradores: foco estratégico, cultura corporativa, escasez de recursos/falta de expertise, coste, restricciones externas, patrones de demanda.",
+    ref: "Tema 7, slide 25"
   },
   {
     topic: 7,
@@ -462,7 +499,8 @@ window.QUESTIONS_T5_T8 = [
       "El catálogo de servicios visible al cliente"
     ],
     correct: 1,
-    explanation: "Flujo de valor: serie de pasos que una organización lleva a cabo para crear y entregar productos y servicios a sus clientes."
+    explanation: "Flujo de valor: serie de pasos que una organización lleva a cabo para crear y entregar productos y servicios a sus clientes.",
+    ref: "Tema 7, slide 27"
   },
   {
     topic: 7,
@@ -474,7 +512,8 @@ window.QUESTIONS_T5_T8 = [
       "Un equipo de trabajo permanente"
     ],
     correct: 1,
-    explanation: "Proceso: conjunto de actividades interrelacionadas que transforman entradas en salidas. El proceso define la secuencia de actividades y sus dependencias. Las entradas y salidas están definidas."
+    explanation: "Proceso: conjunto de actividades interrelacionadas que transforman entradas en salidas. El proceso define la secuencia de actividades y sus dependencias. Las entradas y salidas están definidas.",
+    ref: "Tema 7, slide 30"
   },
   {
     topic: 7,
@@ -486,7 +525,8 @@ window.QUESTIONS_T5_T8 = [
       "Es individual por usuario"
     ],
     correct: 1,
-    explanation: "Un proceso está pensado para repetirse. Se inicia cuando se produce el disparador. Hay una condición de terminación. Por ejemplo: Incidencia → Incidencia Resuelta."
+    explanation: "Un proceso está pensado para repetirse. Se inicia cuando se produce el disparador. Hay una condición de terminación. Por ejemplo: Incidencia → Incidencia Resuelta.",
+    ref: "Tema 7, slide 31"
   },
   {
     topic: 7,
@@ -498,7 +538,8 @@ window.QUESTIONS_T5_T8 = [
       "Productividad, Eficiencia, Sostenibilidad, Tradición"
     ],
     correct: 0,
-    explanation: "Factores externos: Políticos, Económicos, Sociales, Tecnológicos, Legales y Ambientales (PESTLE)."
+    explanation: "Factores externos: Políticos, Económicos, Sociales, Tecnológicos, Legales y Ambientales (PESTLE).",
+    ref: "Tema 7, slide 32"
   },
   {
     topic: 7,
@@ -510,7 +551,8 @@ window.QUESTIONS_T5_T8 = [
       "DaaS"
     ],
     correct: 2,
-    explanation: "SaaS (Software as a Service): el cliente utiliza las aplicaciones sin preocuparse de la infraestructura subyacente."
+    explanation: "SaaS (Software as a Service): el cliente utiliza las aplicaciones sin preocuparse de la infraestructura subyacente.",
+    ref: "Tema 7, slide 17"
   },
   {
     topic: 7,
@@ -522,7 +564,8 @@ window.QUESTIONS_T5_T8 = [
       "Partners y suministradores"
     ],
     correct: 2,
-    explanation: "Flujos de valor y procesos: de qué forma las distintas partes de la organización se integran y llevan a cabo actividades, para que sus servicios aporten valor. Es decir, cómo se proporcionan los servicios."
+    explanation: "Flujos de valor y procesos: de qué forma las distintas partes de la organización se integran y llevan a cabo actividades, para que sus servicios aporten valor. Es decir, cómo se proporcionan los servicios.",
+    ref: "Tema 7, slide 26"
   },
   {
     topic: 7,
@@ -534,7 +577,8 @@ window.QUESTIONS_T5_T8 = [
       "Reducir la comunicación cara a cara"
     ],
     correct: 1,
-    explanation: "Estilo de liderazgo facilitador. Decimos \"no\" a la cultura de los silos. Todos (personas y departamentos) se enfocan en la creación de valor mediante la entrega de servicios."
+    explanation: "Estilo de liderazgo facilitador. Decimos \"no\" a la cultura de los silos. Todos (personas y departamentos) se enfocan en la creación de valor mediante la entrega de servicios.",
+    ref: "Tema 7, slide 10"
   },
 
   // ===== TEMA 8 - PRÁCTICAS DE GESTIÓN TÉCNICA =====
@@ -548,7 +592,8 @@ window.QUESTIONS_T5_T8 = [
       "5"
     ],
     correct: 1,
-    explanation: "ITIL 4 define 3 prácticas de Gestión Técnica: Gestión de Despliegues, Gestión de Infraestructuras, y Gestión y desarrollo de software."
+    explanation: "ITIL 4 define 3 prácticas de Gestión Técnica: Gestión de Despliegues, Gestión de Infraestructuras, y Gestión y desarrollo de software.",
+    ref: "Tema 8, slide 0"
   },
   {
     topic: 8,
@@ -560,7 +605,8 @@ window.QUESTIONS_T5_T8 = [
       "Disponibilidad, capacidad, continuidad"
     ],
     correct: 1,
-    explanation: "Las 3 prácticas de gestión técnica son: Gestión de Despliegues, Gestión de Infraestructuras, y Gestión y desarrollo de software."
+    explanation: "Las 3 prácticas de gestión técnica son: Gestión de Despliegues, Gestión de Infraestructuras, y Gestión y desarrollo de software.",
+    ref: "Tema 8, slide 0"
   },
   {
     topic: 8,
@@ -572,7 +618,8 @@ window.QUESTIONS_T5_T8 = [
       "De atender llamadas del service desk"
     ],
     correct: 1,
-    explanation: "Gestión de Despliegues: poner en producción nuevo hardware, software, procesos o cualquier componente. También desplegar en entornos de pruebas o staging."
+    explanation: "Gestión de Despliegues: poner en producción nuevo hardware, software, procesos o cualquier componente. También desplegar en entornos de pruebas o staging.",
+    ref: "Tema 8, slide 1"
   },
   {
     topic: 8,
@@ -584,7 +631,8 @@ window.QUESTIONS_T5_T8 = [
       "Despliegue invertido"
     ],
     correct: 3,
-    explanation: "Estrategias de despliegue: en fases, continuo, big bang, pull (el usuario descarga la app o entorno virtual). El \"invertido\" no existe en ITIL."
+    explanation: "Estrategias de despliegue: en fases, continuo, big bang, pull (el usuario descarga la app o entorno virtual). El \"invertido\" no existe en ITIL.",
+    ref: "Tema 8, slide 2"
   },
   {
     topic: 8,
@@ -596,7 +644,8 @@ window.QUESTIONS_T5_T8 = [
       "Un despliegue solo a servidores"
     ],
     correct: 0,
-    explanation: "Despliegue tipo \"pull\": por ejemplo, el usuario se descarga una app o entorno virtual."
+    explanation: "Despliegue tipo \"pull\": por ejemplo, el usuario se descarga una app o entorno virtual.",
+    ref: "Tema 8, slide 2"
   },
   {
     topic: 8,
@@ -608,7 +657,8 @@ window.QUESTIONS_T5_T8 = [
       "Una librería externa contratada"
     ],
     correct: 1,
-    explanation: "Librería definitiva de medios: repositorio del software, y documentación, de donde se toma para ser desplegado en producción."
+    explanation: "Librería definitiva de medios: repositorio del software, y documentación, de donde se toma para ser desplegado en producción.",
+    ref: "Tema 8, slide 3"
   },
   {
     topic: 8,
@@ -620,7 +670,8 @@ window.QUESTIONS_T5_T8 = [
       "La zona de retirada de equipos antiguos"
     ],
     correct: 1,
-    explanation: "Almacén de hardware final: localización donde están dispuestos los componentes de hardware para su instalación en producción."
+    explanation: "Almacén de hardware final: localización donde están dispuestos los componentes de hardware para su instalación en producción.",
+    ref: "Tema 8, slide 3"
   },
   {
     topic: 8,
@@ -632,7 +683,8 @@ window.QUESTIONS_T5_T8 = [
       "Sólo define la estrategia"
     ],
     correct: 0,
-    explanation: "Gestión de Infraestructura: provisiona y monitoriza la infraestructura de la organización. Existe una gran evolución hacia Cloud."
+    explanation: "Gestión de Infraestructura: provisiona y monitoriza la infraestructura de la organización. Existe una gran evolución hacia Cloud.",
+    ref: "Tema 8, slide 4"
   },
   {
     topic: 8,
@@ -644,7 +696,8 @@ window.QUESTIONS_T5_T8 = [
       "El cliente alquila personal cualificado"
     ],
     correct: 1,
-    explanation: "PaaS (Platform as a Service): el cliente puede desplegar en la nube aplicaciones, librerías, configuraciones, etc., sobre una plataforma proporcionada."
+    explanation: "PaaS (Platform as a Service): el cliente puede desplegar en la nube aplicaciones, librerías, configuraciones, etc., sobre una plataforma proporcionada.",
+    ref: "Tema 8, slide 5"
   },
   {
     topic: 8,
@@ -656,7 +709,8 @@ window.QUESTIONS_T5_T8 = [
       "DaaS"
     ],
     correct: 2,
-    explanation: "IaaS (Infrastructure as a Service): el cliente tiene el control para utilizar más recursos físicos (servidores, almacenamiento, red)."
+    explanation: "IaaS (Infrastructure as a Service): el cliente tiene el control para utilizar más recursos físicos (servidores, almacenamiento, red).",
+    ref: "Tema 8, slide 5"
   },
   {
     topic: 8,
@@ -668,7 +722,8 @@ window.QUESTIONS_T5_T8 = [
       "Nube efímera"
     ],
     correct: 3,
-    explanation: "Modelos de despliegue Cloud: nube privada, nube pública, nube comunitaria (privada de un grupo de organizaciones), y nube híbrida (combinación). La \"nube efímera\" no es un modelo definido."
+    explanation: "Modelos de despliegue Cloud: nube privada, nube pública, nube comunitaria (privada de un grupo de organizaciones), y nube híbrida (combinación). La \"nube efímera\" no es un modelo definido.",
+    ref: "Tema 8, slide 6"
   },
   {
     topic: 8,
@@ -680,7 +735,8 @@ window.QUESTIONS_T5_T8 = [
       "Una nube experimental"
     ],
     correct: 1,
-    explanation: "Nube comunitaria: nube privada de un grupo de organizaciones que quieren compartir algo en ella."
+    explanation: "Nube comunitaria: nube privada de un grupo de organizaciones que quieren compartir algo en ella.",
+    ref: "Tema 8, slide 6"
   },
   {
     topic: 8,
@@ -692,7 +748,8 @@ window.QUESTIONS_T5_T8 = [
       "Una nube parcialmente operativa"
     ],
     correct: 1,
-    explanation: "Nube híbrida: combina las anteriores (privada, pública, comunitaria)."
+    explanation: "Nube híbrida: combina las anteriores (privada, pública, comunitaria).",
+    ref: "Tema 8, slide 6"
   },
   {
     topic: 8,
@@ -704,7 +761,8 @@ window.QUESTIONS_T5_T8 = [
       "Únicamente de programar nuevos sistemas"
     ],
     correct: 1,
-    explanation: "Gestión y desarrollo de software: asegura que las aplicaciones cumplen con las necesidades de los interesados en términos de funcionalidad, fiabilidad, mantenibilidad, cumplimiento, auditabilidad… ¿El software es \"adecuado para su uso\"?"
+    explanation: "Gestión y desarrollo de software: asegura que las aplicaciones cumplen con las necesidades de los interesados en términos de funcionalidad, fiabilidad, mantenibilidad, cumplimiento, auditabilidad… ¿El software es \"adecuado para su uso\"?",
+    ref: "Tema 8, slide 7"
   },
   {
     topic: 8,
@@ -716,7 +774,8 @@ window.QUESTIONS_T5_T8 = [
       "Sólo software propietario"
     ],
     correct: 1,
-    explanation: "Software incluye: bases de datos, sistemas operativos, aplicaciones, apps, websites, software embebido (p.ej. controladores de robots)."
+    explanation: "Software incluye: bases de datos, sistemas operativos, aplicaciones, apps, websites, software embebido (p.ej. controladores de robots).",
+    ref: "Tema 8, slide 8"
   },
   {
     topic: 8,
@@ -728,7 +787,8 @@ window.QUESTIONS_T5_T8 = [
       "Sólo metodologías propietarias"
     ],
     correct: 2,
-    explanation: "Métodos de desarrollo de software: en cascada o ágiles. ITIL contempla ambos enfoques."
+    explanation: "Métodos de desarrollo de software: en cascada o ágiles. ITIL contempla ambos enfoques.",
+    ref: "Tema 8, slide 9"
   },
   {
     topic: 8,
@@ -740,6 +800,7 @@ window.QUESTIONS_T5_T8 = [
       "Requerir aprobación manual en cada paso"
     ],
     correct: 0,
-    explanation: "Despliegue o entrega continua: muy frecuente. Forma parte de las estrategias de despliegue modernas, ligadas a DevOps."
+    explanation: "Despliegue o entrega continua: muy frecuente. Forma parte de las estrategias de despliegue modernas, ligadas a DevOps.",
+    ref: "Tema 8, slide 2"
   }
 ];

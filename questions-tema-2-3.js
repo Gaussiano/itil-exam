@@ -12,7 +12,8 @@ window.QUESTIONS_T2_T3 = [
       "Solo los usuarios finales del servicio"
     ],
     correct: 1,
-    explanation: "Un interesado significa \"impactado\". Puede estar a favor o en contra del proyecto o servicio. Incluye empleados, clientes, partners, suministradores, organizaciones públicas, etc."
+    explanation: "Un interesado significa \"impactado\". Puede estar a favor o en contra del proyecto o servicio. Incluye empleados, clientes, partners, suministradores, organizaciones públicas, etc.",
+    ref: "Tema 2, slide 0"
   },
   {
     topic: 2,
@@ -24,7 +25,8 @@ window.QUESTIONS_T2_T3 = [
       "Un conjunto de departamentos coordinados"
     ],
     correct: 0,
-    explanation: "Organización: una persona o grupo de personas que tiene sus propias funciones, con responsabilidades y relaciones de autoridad, para alcanzar sus objetivos. En ITIL, \"organización\" se refiere siempre al proveedor del servicio."
+    explanation: "Organización: una persona o grupo de personas que tiene sus propias funciones, con responsabilidades y relaciones de autoridad, para alcanzar sus objetivos. En ITIL, \"organización\" se refiere siempre al proveedor del servicio.",
+    ref: "Tema 2, slide 1"
   },
   {
     topic: 2,
@@ -36,7 +38,8 @@ window.QUESTIONS_T2_T3 = [
       "A los reguladores externos"
     ],
     correct: 1,
-    explanation: "En ITIL, cuando decimos \"organización\", nos referimos siempre como la proveedora del servicio. El usuario del servicio puede ser interno o externo."
+    explanation: "En ITIL, cuando decimos \"organización\", nos referimos siempre como la proveedora del servicio. El usuario del servicio puede ser interno o externo.",
+    ref: "Tema 2, slide 5"
   },
   {
     topic: 2,
@@ -48,7 +51,8 @@ window.QUESTIONS_T2_T3 = [
       "Cliente, gobierno y empleado"
     ],
     correct: 0,
-    explanation: "El consumidor del servicio se descompone en: Cliente (define requerimientos y consume resultados), Usuario (utiliza el servicio) y Sponsor (autoriza el presupuesto)."
+    explanation: "El consumidor del servicio se descompone en: Cliente (define requerimientos y consume resultados), Usuario (utiliza el servicio) y Sponsor (autoriza el presupuesto).",
+    ref: "Tema 2, slide 7"
   },
   {
     topic: 2,
@@ -60,7 +64,8 @@ window.QUESTIONS_T2_T3 = [
       "Proveedor"
     ],
     correct: 2,
-    explanation: "Cliente: persona que define los requerimientos del servicio, y consume los resultados que el servicio entrega."
+    explanation: "Cliente: persona que define los requerimientos del servicio, y consume los resultados que el servicio entrega.",
+    ref: "Tema 2, slide 7"
   },
   {
     topic: 2,
@@ -72,7 +77,8 @@ window.QUESTIONS_T2_T3 = [
       "Partner"
     ],
     correct: 2,
-    explanation: "Sponsor: persona que autoriza el presupuesto para el servicio. Por ejemplo, el CFO."
+    explanation: "Sponsor: persona que autoriza el presupuesto para el servicio. Por ejemplo, el CFO.",
+    ref: "Tema 2, slide 7"
   },
   {
     topic: 2,
@@ -84,7 +90,8 @@ window.QUESTIONS_T2_T3 = [
       "Partner"
     ],
     correct: 1,
-    explanation: "El CIO define las características del servicio y valida la entrega según contrato; ese es el rol de Cliente."
+    explanation: "El CIO define las características del servicio y valida la entrega según contrato; ese es el rol de Cliente.",
+    ref: "Tema 2, slide 8"
   },
   {
     topic: 2,
@@ -96,7 +103,8 @@ window.QUESTIONS_T2_T3 = [
       "Una transacción comercial entre proveedor y cliente"
     ],
     correct: 1,
-    explanation: "Producto: una configuración de los recursos de una organización, diseñada para entregar valor a un cliente."
+    explanation: "Producto: una configuración de los recursos de una organización, diseñada para entregar valor a un cliente.",
+    ref: "Tema 2, slide 18"
   },
   {
     topic: 2,
@@ -108,7 +116,8 @@ window.QUESTIONS_T2_T3 = [
       "La entrega de un producto tangible al usuario"
     ],
     correct: 1,
-    explanation: "Servicio: un medio que hace posible la co-creación de valor, facilitando resultados que los clientes desean, sin que tengan que preocuparse de riesgos o costes específicos."
+    explanation: "Servicio: un medio que hace posible la co-creación de valor, facilitando resultados que los clientes desean, sin que tengan que preocuparse de riesgos o costes específicos.",
+    ref: "Tema 2, slide 19"
   },
   {
     topic: 2,
@@ -120,7 +129,8 @@ window.QUESTIONS_T2_T3 = [
       "Sponsors"
     ],
     correct: 1,
-    explanation: "Un producto es una configuración de los recursos (personas, información y tecnología, cadenas de valor y procesos, proveedores y partners). Por tanto, los servicios se proporcionan mediante productos."
+    explanation: "Un producto es una configuración de los recursos (personas, información y tecnología, cadenas de valor y procesos, proveedores y partners). Por tanto, los servicios se proporcionan mediante productos.",
+    ref: "Tema 2, slide 15"
   },
   {
     topic: 2,
@@ -132,7 +142,8 @@ window.QUESTIONS_T2_T3 = [
       "Una propuesta interna de cambio"
     ],
     correct: 1,
-    explanation: "Oferta de servicio: descripción de un servicio diseñado para satisfacer las necesidades de un grupo de consumidores. Puede incluir bienes, acceso a recursos y acciones del servicio."
+    explanation: "Oferta de servicio: descripción de un servicio diseñado para satisfacer las necesidades de un grupo de consumidores. Puede incluir bienes, acceso a recursos y acciones del servicio.",
+    ref: "Tema 2, slide 23"
   },
   {
     topic: 2,
@@ -144,7 +155,8 @@ window.QUESTIONS_T2_T3 = [
       "Solo software"
     ],
     correct: 1,
-    explanation: "La oferta de servicio puede incluir bienes (p.ej. teléfono móvil), acceso a recursos (red, almacenamiento) y acciones del servicio (atención al cliente)."
+    explanation: "La oferta de servicio puede incluir bienes (p.ej. teléfono móvil), acceso a recursos (red, almacenamiento) y acciones del servicio (atención al cliente).",
+    ref: "Tema 2, slide 24"
   },
   {
     topic: 2,
@@ -156,7 +168,8 @@ window.QUESTIONS_T2_T3 = [
       "Una métrica de satisfacción del usuario"
     ],
     correct: 1,
-    explanation: "Relación de servicio: cooperación entre un proveedor y un consumidor de servicio."
+    explanation: "Relación de servicio: cooperación entre un proveedor y un consumidor de servicio.",
+    ref: "Tema 2, slide 29"
   },
   {
     topic: 2,
@@ -168,7 +181,8 @@ window.QUESTIONS_T2_T3 = [
       "Oferta del servicio"
     ],
     correct: 1,
-    explanation: "Consumo del servicio: actividades para usar un servicio, que pueden incluir el uso de bienes."
+    explanation: "Consumo del servicio: actividades para usar un servicio, que pueden incluir el uso de bienes.",
+    ref: "Tema 2, slide 30"
   },
   {
     topic: 2,
@@ -180,7 +194,8 @@ window.QUESTIONS_T2_T3 = [
       "El resultado lo produce el proveedor y la salida la produce el cliente"
     ],
     correct: 1,
-    explanation: "Salida (output): entregable tangible o intangible producido por una actividad. Resultado (outcome): producto tangible o intangible que obtiene un interesado, posible gracias a una o más salidas."
+    explanation: "Salida (output): entregable tangible o intangible producido por una actividad. Resultado (outcome): producto tangible o intangible que obtiene un interesado, posible gracias a una o más salidas.",
+    ref: "Tema 2, slide 33"
   },
   {
     topic: 2,
@@ -192,7 +207,8 @@ window.QUESTIONS_T2_T3 = [
       "La SIM instalada"
     ],
     correct: 1,
-    explanation: "Salida: el teléfono conectado a la red. Resultado: la capacidad del usuario para enviar emails o usar WhatsApp."
+    explanation: "Salida: el teléfono conectado a la red. Resultado: la capacidad del usuario para enviar emails o usar WhatsApp.",
+    ref: "Tema 2, slide 34"
   },
   {
     topic: 2,
@@ -204,7 +220,8 @@ window.QUESTIONS_T2_T3 = [
       "El impacto financiero de un riesgo"
     ],
     correct: 1,
-    explanation: "Coste: cantidad de dinero gastado en una actividad o recurso específico."
+    explanation: "Coste: cantidad de dinero gastado en una actividad o recurso específico.",
+    ref: "Tema 2, slide 39"
   },
   {
     topic: 2,
@@ -216,7 +233,8 @@ window.QUESTIONS_T2_T3 = [
       "CAPEX y OPEX"
     ],
     correct: 1,
-    explanation: "Hay 2 tipos de coste: inversión para construir y disponer el servicio, y coste por el consumo del servicio."
+    explanation: "Hay 2 tipos de coste: inversión para construir y disponer el servicio, y coste por el consumo del servicio.",
+    ref: "Tema 2, slide 39"
   },
   {
     topic: 2,
@@ -228,7 +246,8 @@ window.QUESTIONS_T2_T3 = [
       "Una incidencia mayor"
     ],
     correct: 1,
-    explanation: "Riesgo: un evento posible que puede causar pérdidas o daño, o puede hacer más difícil alcanzar los objetivos. En el contexto de ITIL la idea de riesgo es siempre negativa."
+    explanation: "Riesgo: un evento posible que puede causar pérdidas o daño, o puede hacer más difícil alcanzar los objetivos. En el contexto de ITIL la idea de riesgo es siempre negativa.",
+    ref: "Tema 2, slide 41"
   },
   {
     topic: 2,
@@ -240,7 +259,8 @@ window.QUESTIONS_T2_T3 = [
       "Estratégica"
     ],
     correct: 1,
-    explanation: "En el contexto de ITIL, la idea de Riesgo es siempre negativa: hay que anticiparlo, evitarlo o minimizarlo."
+    explanation: "En el contexto de ITIL, la idea de Riesgo es siempre negativa: hay que anticiparlo, evitarlo o minimizarlo.",
+    ref: "Tema 2, slide 44"
   },
   {
     topic: 2,
@@ -252,7 +272,8 @@ window.QUESTIONS_T2_T3 = [
       "Riesgo conocido y desconocido"
     ],
     correct: 1,
-    explanation: "Como con el coste, hay 2 tipos de riesgos: riesgo al construir o disponer un servicio (posibilidad de fallo al arrancar), y riesgo de consumo del servicio (p.ej. que el proveedor cese su actividad, riesgos de seguridad…)."
+    explanation: "Como con el coste, hay 2 tipos de riesgos: riesgo al construir o disponer un servicio (posibilidad de fallo al arrancar), y riesgo de consumo del servicio (p.ej. que el proveedor cese su actividad, riesgos de seguridad…).",
+    ref: "Tema 2, slide 42"
   },
   {
     topic: 2,
@@ -264,7 +285,8 @@ window.QUESTIONS_T2_T3 = [
       "El nivel de disponibilidad acordado"
     ],
     correct: 1,
-    explanation: "Utilidad: lo que un servicio hace. ¿Aporta nueva funcionalidad? ¿Elimina alguna restricción? ¿Resulta \"fit for purpose\"?"
+    explanation: "Utilidad: lo que un servicio hace. ¿Aporta nueva funcionalidad? ¿Elimina alguna restricción? ¿Resulta \"fit for purpose\"?",
+    ref: "Tema 2, slide 45"
   },
   {
     topic: 2,
@@ -276,7 +298,8 @@ window.QUESTIONS_T2_T3 = [
       "El número de incidencias permitidas"
     ],
     correct: 1,
-    explanation: "Garantía: cómo un servicio se puede usar. Se mide por niveles de servicio. ¿Resulta \"fit for use\"?"
+    explanation: "Garantía: cómo un servicio se puede usar. Se mide por niveles de servicio. ¿Resulta \"fit for use\"?",
+    ref: "Tema 2, slide 46"
   },
   {
     topic: 2,
@@ -288,7 +311,8 @@ window.QUESTIONS_T2_T3 = [
       "Confidencialidad, integridad, disponibilidad y autenticidad"
     ],
     correct: 0,
-    explanation: "Los 4 niveles de garantía son: Disponibilidad, Capacidad, Continuidad y Seguridad."
+    explanation: "Los 4 niveles de garantía son: Disponibilidad, Capacidad, Continuidad y Seguridad.",
+    ref: "Tema 2, slide 47"
   },
   {
     topic: 2,
@@ -300,7 +324,8 @@ window.QUESTIONS_T2_T3 = [
       "Valor = Garantía - Riesgos"
     ],
     correct: 1,
-    explanation: "Valor = Utilidad + Garantía (Utilidad \"Y\" Garantía; no es un \"O\"). Un servicio aporta valor cuando es útil y además tiene garantía."
+    explanation: "Valor = Utilidad + Garantía (Utilidad \"Y\" Garantía; no es un \"O\"). Un servicio aporta valor cuando es útil y además tiene garantía.",
+    ref: "Tema 2, slide 48"
   },
   {
     topic: 2,
@@ -312,7 +337,8 @@ window.QUESTIONS_T2_T3 = [
       "El propio Service Value System"
     ],
     correct: 3,
-    explanation: "Otros interesados son empleados, partners, suministradores, organizaciones públicas o grupos de posibles clientes. El SVS no es un interesado, es el sistema en sí."
+    explanation: "Otros interesados son empleados, partners, suministradores, organizaciones públicas o grupos de posibles clientes. El SVS no es un interesado, es el sistema en sí.",
+    ref: "Tema 2, slide 10"
   },
   {
     topic: 2,
@@ -324,7 +350,8 @@ window.QUESTIONS_T2_T3 = [
       "Ambos son el placer obtenido"
     ],
     correct: 0,
-    explanation: "La salida es el entregable tangible producido por la actividad. El resultado es lo que un interesado obtiene gracias a esa salida."
+    explanation: "La salida es el entregable tangible producido por la actividad. El resultado es lo que un interesado obtiene gracias a esa salida.",
+    ref: "Tema 2, slide 33"
   },
   {
     topic: 2,
@@ -336,7 +363,8 @@ window.QUESTIONS_T2_T3 = [
       "Externalizando el servicio"
     ],
     correct: 1,
-    explanation: "Para minimizar el riesgo: definir requisitos CON usuarios y clientes, dejar claros los CSFs (Factores Críticos de Éxito), y gestionar el servicio para disponer de recursos suficientes."
+    explanation: "Para minimizar el riesgo: definir requisitos CON usuarios y clientes, dejar claros los CSFs (Factores Críticos de Éxito), y gestionar el servicio para disponer de recursos suficientes.",
+    ref: "Tema 2, slide 43"
   },
 
   // ===== TEMA 3 — SVS =====
@@ -350,7 +378,8 @@ window.QUESTIONS_T2_T3 = [
       "Procesos y partners"
     ],
     correct: 0,
-    explanation: "El SVS es un ecosistema con 2 entradas clave: Demanda y Oportunidades. La salida clave es Valor."
+    explanation: "El SVS es un ecosistema con 2 entradas clave: Demanda y Oportunidades. La salida clave es Valor.",
+    ref: "Tema 3, slide 0"
   },
   {
     topic: 3,
@@ -362,7 +391,8 @@ window.QUESTIONS_T2_T3 = [
       "Información"
     ],
     correct: 1,
-    explanation: "El SVS tiene como salida clave el Valor."
+    explanation: "El SVS tiene como salida clave el Valor.",
+    ref: "Tema 3, slide 0"
   },
   {
     topic: 3,
@@ -374,7 +404,8 @@ window.QUESTIONS_T2_T3 = [
       "Acoplar, planificar, mejorar, diseñar, construir y entregar"
     ],
     correct: 1,
-    explanation: "Los componentes del SVS son: cadena de valor del servicio, principios rectores, gobierno, prácticas y mejora continua."
+    explanation: "Los componentes del SVS son: cadena de valor del servicio, principios rectores, gobierno, prácticas y mejora continua.",
+    ref: "Tema 3, slide 1"
   },
   {
     topic: 3,
@@ -386,7 +417,8 @@ window.QUESTIONS_T2_T3 = [
       "Que tiene una estructura jerárquica única"
     ],
     correct: 1,
-    explanation: "La organización es un \"sistema\", es decir, sin \"silos\" en cuanto a datos e información, personas y comunicación, tecnológicos y prácticas."
+    explanation: "La organización es un \"sistema\", es decir, sin \"silos\" en cuanto a datos e información, personas y comunicación, tecnológicos y prácticas.",
+    ref: "Tema 3, slide 3"
   },
   {
     topic: 3,
@@ -398,7 +430,8 @@ window.QUESTIONS_T2_T3 = [
       "Las oportunidades nunca pueden ser futuras"
     ],
     correct: 1,
-    explanation: "Oportunidad y demanda son los triggers del SVS. Pueden existir oportunidades para demandas futuras. La demanda puede venir de clientes internos y externos."
+    explanation: "Oportunidad y demanda son los triggers del SVS. Pueden existir oportunidades para demandas futuras. La demanda puede venir de clientes internos y externos.",
+    ref: "Tema 3, slide 7"
   },
   {
     topic: 3,
@@ -410,7 +443,8 @@ window.QUESTIONS_T2_T3 = [
       "Definir, Medir, Mejorar"
     ],
     correct: 1,
-    explanation: "El equipo de gobierno es responsable del cumplimiento de regulaciones y compromisos con terceros. Sus 3 actividades son: Evaluar → Dirigir → Monitorizar."
+    explanation: "El equipo de gobierno es responsable del cumplimiento de regulaciones y compromisos con terceros. Sus 3 actividades son: Evaluar → Dirigir → Monitorizar.",
+    ref: "Tema 3, slide 12"
   },
   {
     topic: 3,
@@ -422,7 +456,8 @@ window.QUESTIONS_T2_T3 = [
       "7"
     ],
     correct: 2,
-    explanation: "Son 6 actividades: Planificar, Mejorar, Acoplar (engage), Diseño y transición, Obtener/construir, y Entregar y dar soporte."
+    explanation: "Son 6 actividades: Planificar, Mejorar, Acoplar (engage), Diseño y transición, Obtener/construir, y Entregar y dar soporte.",
+    ref: "Tema 3, slide 15"
   },
   {
     topic: 3,
@@ -434,7 +469,8 @@ window.QUESTIONS_T2_T3 = [
       "Entregar y dar soporte"
     ],
     correct: 2,
-    explanation: "Las 6 actividades son Planificar, Mejorar, Acoplar, Diseño y transición, Obtener/construir y Entregar y dar soporte. El gobierno es un componente del SVS pero no una actividad de la cadena de valor."
+    explanation: "Las 6 actividades son Planificar, Mejorar, Acoplar, Diseño y transición, Obtener/construir y Entregar y dar soporte. El gobierno es un componente del SVS pero no una actividad de la cadena de valor.",
+    ref: "Tema 3, slide 15"
   },
   {
     topic: 3,
@@ -446,7 +482,8 @@ window.QUESTIONS_T2_T3 = [
       "Agile y DevOps solo se aplican fuera de IT"
     ],
     correct: 2,
-    explanation: "No \"elegir uno u otro\", sino combinar lo mejor de todos. ITIL + Agile + DevOps se potencian mutuamente."
+    explanation: "No \"elegir uno u otro\", sino combinar lo mejor de todos. ITIL + Agile + DevOps se potencian mutuamente.",
+    ref: "Tema 3, slide 8"
   },
   {
     topic: 3,
@@ -458,7 +495,8 @@ window.QUESTIONS_T2_T3 = [
       "DevOps = ITIL + automatización"
     ],
     correct: 1,
-    explanation: "DevOps = desarrollo Agile + co-creación de valor (ITIL) + enfoque Lean. La cultura DevOps agiliza la cadena de producción de valor."
+    explanation: "DevOps = desarrollo Agile + co-creación de valor (ITIL) + enfoque Lean. La cultura DevOps agiliza la cadena de producción de valor.",
+    ref: "Tema 3, slide 11"
   },
   {
     topic: 3,
@@ -470,7 +508,8 @@ window.QUESTIONS_T2_T3 = [
       "Cada usuario individualmente"
     ],
     correct: 1,
-    explanation: "El equipo de gobierno de la empresa es el responsable (accountable) del cumplimiento de regulaciones, y compromisos con terceros."
+    explanation: "El equipo de gobierno de la empresa es el responsable (accountable) del cumplimiento de regulaciones, y compromisos con terceros.",
+    ref: "Tema 3, slide 12"
   },
   {
     topic: 3,
@@ -482,7 +521,8 @@ window.QUESTIONS_T2_T3 = [
       "Solo del gobierno corporativo"
     ],
     correct: 2,
-    explanation: "La demanda puede venir de clientes internos y externos (lo más habitual)."
+    explanation: "La demanda puede venir de clientes internos y externos (lo más habitual).",
+    ref: "Tema 3, slide 7"
   },
   {
     topic: 3,
@@ -494,7 +534,8 @@ window.QUESTIONS_T2_T3 = [
       "Foco exclusivo en la entrega rápida"
     ],
     correct: 1,
-    explanation: "Las ideas generales del SVS son: adaptación al cambio, comunicación y colaboración, madurez, Agile/DevOps/Lean, empresa inteligente, sin silos."
+    explanation: "Las ideas generales del SVS son: adaptación al cambio, comunicación y colaboración, madurez, Agile/DevOps/Lean, empresa inteligente, sin silos.",
+    ref: "Tema 3, slide 4"
   },
   {
     topic: 3,
@@ -506,7 +547,8 @@ window.QUESTIONS_T2_T3 = [
       "Solo aplica a las prácticas de gestión técnica"
     ],
     correct: 1,
-    explanation: "El gobierno aplica al resto de elementos del SVS."
+    explanation: "El gobierno aplica al resto de elementos del SVS.",
+    ref: "Tema 3, slide 13"
   },
   {
     topic: 3,
@@ -518,7 +560,8 @@ window.QUESTIONS_T2_T3 = [
       "Obtener/construir"
     ],
     correct: 1,
-    explanation: "Acoplar (engage) cubre la pre-venta, venta, contratación y comprensión de necesidades de los interesados."
+    explanation: "Acoplar (engage) cubre la pre-venta, venta, contratación y comprensión de necesidades de los interesados.",
+    ref: "Tema 3, slide 18"
   },
   {
     topic: 3,
@@ -530,7 +573,8 @@ window.QUESTIONS_T2_T3 = [
       "Roles individuales obligatorios"
     ],
     correct: 1,
-    explanation: "No sólo son actividades, sino \"grupos de trabajo\" que se encargan de planificar, acoplar, hacer/comprar recursos, lanzar mejoras, etc."
+    explanation: "No sólo son actividades, sino \"grupos de trabajo\" que se encargan de planificar, acoplar, hacer/comprar recursos, lanzar mejoras, etc.",
+    ref: "Tema 3, slide 17"
   },
   {
     topic: 3,
@@ -542,7 +586,8 @@ window.QUESTIONS_T2_T3 = [
       "Mejora continua"
     ],
     correct: 2,
-    explanation: "Los componentes del SVS son: cadena de valor, principios rectores, gobierno, prácticas y mejora continua. Las 4 dimensiones influyen sobre el SVS pero no son un componente del mismo."
+    explanation: "Los componentes del SVS son: cadena de valor, principios rectores, gobierno, prácticas y mejora continua. Las 4 dimensiones influyen sobre el SVS pero no son un componente del mismo.",
+    ref: "Tema 3, slide 1"
   },
   {
     topic: 3,
@@ -554,6 +599,7 @@ window.QUESTIONS_T2_T3 = [
       "Únicamente si las marca la dirección"
     ],
     correct: 1,
-    explanation: "Pueden existir oportunidades para demandas futuras. El SVS contempla anticiparse a demandas que aún no se han materializado."
+    explanation: "Pueden existir oportunidades para demandas futuras. El SVS contempla anticiparse a demandas que aún no se han materializado.",
+    ref: "Tema 3, slide 7"
   }
 ];

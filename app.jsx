@@ -1,6 +1,8 @@
 // ITIL Foundation Exam App — main app
 // Renders inside an Android device frame (412×892).
 
+const VERSION = 'v1.1.0';
+
 const { useState, useEffect, useRef, useMemo, useCallback } = React;
 
 // ─── Design tokens ────────────────────────────────────────────────────────
@@ -116,8 +118,11 @@ function HomeScreen({ mode, setMode, selectedTopics, setSelectedTopics, onStart,
   return (
     <div style={{ padding: '22px 22px 30px', display: 'flex', flexDirection: 'column', gap: 22 }}>
       <div>
-        <div style={{ font: '700 11px Manrope', letterSpacing: '0.14em', color: T.text3, textTransform: 'uppercase' }}>
-          ITIL® Foundation · v4
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ font: '700 11px Manrope', letterSpacing: '0.14em', color: T.text3, textTransform: 'uppercase' }}>
+            ITIL® Foundation · v4
+          </div>
+          <div style={{ font: '600 11px Manrope', color: T.text3, letterSpacing: '0.05em' }}>{VERSION}</div>
         </div>
         <h1 style={{
           font: '800 30px/1.12 Manrope', margin: '8px 0 6px', letterSpacing: '-0.02em', color: T.text,
@@ -473,6 +478,11 @@ function ExamScreen({ mode, questions, onFinish, onAbort }) {
             <div style={{ font: '500 13.5px/1.55 Manrope', color: T.text }}>
               {q.explanation}
             </div>
+            {q.ref && (
+              <div style={{ font: '600 11px Manrope', color: selected === q.correct ? T.success : T.error, marginTop: 8, opacity: 0.75 }}>
+                📖 {q.ref}
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -692,6 +702,11 @@ function ResultsScreen({ questions, answers, mode, timeUsed, onRestart, onHome }
                           Explicación
                         </strong>
                         {q.explanation}
+                        {q.ref && (
+                          <div style={{ font: '600 11px Manrope', color: T.accent, marginTop: 6, opacity: 0.7 }}>
+                            📖 {q.ref}
+                          </div>
+                        )}
                       </div>
                     </div>
                   )}

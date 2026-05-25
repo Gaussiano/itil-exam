@@ -10,7 +10,8 @@ window.QUESTIONS_T10 = [
       "17"
     ],
     correct: 2,
-    explanation: "ITIL define 14 prácticas generales de gestión: arquitectura, mejora continua, seguridad de la información, conocimiento, medición y reporte, cambio organizacional, portfolio, proyectos, relaciones, riesgos, financiera, estratégica, proveedores y talento."
+    explanation: "ITIL define 14 prácticas generales de gestión: arquitectura, mejora continua, seguridad de la información, conocimiento, medición y reporte, cambio organizacional, portfolio, proyectos, relaciones, riesgos, financiera, estratégica, proveedores y talento.",
+    ref: "Tema 10, slide 54"
   },
   {
     topic: 10,
@@ -22,7 +23,8 @@ window.QUESTIONS_T10 = [
       "5"
     ],
     correct: 1,
-    explanation: "3 grupos: prácticas generales de gestión (14), prácticas de gestión de servicios (17) y prácticas de gestión técnica (3). En nivel Fundamentos se exige conocimiento más profundo de 22 de ellas."
+    explanation: "3 grupos: prácticas generales de gestión (14), prácticas de gestión de servicios (17) y prácticas de gestión técnica (3). En nivel Fundamentos se exige conocimiento más profundo de 22 de ellas.",
+    ref: "Tema 10, slide 0"
   },
 
   // GESTIÓN DE ARQUITECTURA
@@ -36,7 +38,8 @@ window.QUESTIONS_T10 = [
       "Del diseño visual corporativo"
     ],
     correct: 1,
-    explanation: "Gestión de arquitectura: se ocupa de entender los elementos que componen la organización y la relación entre ellos."
+    explanation: "Gestión de arquitectura: se ocupa de entender los elementos que componen la organización y la relación entre ellos.",
+    ref: "Tema 10, slide 5"
   },
   {
     topic: 10,
@@ -48,7 +51,8 @@ window.QUESTIONS_T10 = [
       "Arquitectura de logística"
     ],
     correct: 3,
-    explanation: "Tipos de arquitectura: de negocio, de servicio, de tecnología, de contexto, de datos/información/aplicaciones. \"De logística\" no es un tipo enumerado."
+    explanation: "Tipos de arquitectura: de negocio, de servicio, de tecnología, de contexto, de datos/información/aplicaciones. \"De logística\" no es un tipo enumerado.",
+    ref: "Tema 10, slide 6"
   },
 
   // MEJORA CONTINUA
@@ -62,7 +66,8 @@ window.QUESTIONS_T10 = [
       "De cobrar a los clientes"
     ],
     correct: 1,
-    explanation: "Mejora continua: se ocupa de mantener el \"alineamiento\" de las prácticas y servicios con los objetivos de la empresa. Se puede mejorar la estrategia, el portfolio, un servicio, una práctica o un pequeño CI."
+    explanation: "Mejora continua: se ocupa de mantener el \"alineamiento\" de las prácticas y servicios con los objetivos de la empresa. Se puede mejorar la estrategia, el portfolio, un servicio, una práctica o un pequeño CI.",
+    ref: "Tema 10, slide 8"
   },
   {
     topic: 10,
@@ -74,7 +79,8 @@ window.QUESTIONS_T10 = [
       "Service Desk"
     ],
     correct: 0,
-    explanation: "Se citan múltiples técnicas para la mejora continua, por ejemplo SWOT (DAFO): Strengths, Weaknesses, Opportunities, Threats."
+    explanation: "Se citan múltiples técnicas para la mejora continua, por ejemplo SWOT (DAFO): Strengths, Weaknesses, Opportunities, Threats.",
+    ref: "Tema 10, slide 10"
   },
   {
     topic: 10,
@@ -86,7 +92,8 @@ window.QUESTIONS_T10 = [
       "Sólo a los proyectos críticos"
     ],
     correct: 1,
-    explanation: "Aplicar la mejora continua afecta a TODOS los empleados. Agile usa Retrospectivas; Lean usa análisis de desperdicios; DevOps se centra en la entrega."
+    explanation: "Aplicar la mejora continua afecta a TODOS los empleados. Agile usa Retrospectivas; Lean usa análisis de desperdicios; DevOps se centra en la entrega.",
+    ref: "Tema 10, slide 10"
   },
 
   // SEGURIDAD DE LA INFORMACIÓN
@@ -100,7 +107,8 @@ window.QUESTIONS_T10 = [
       "Compliance, Información, Alta disponibilidad"
     ],
     correct: 1,
-    explanation: "C.I.A.: Confidencialidad (Confidenciality), Integridad (Integrity) y Disponibilidad (Availability) de la información."
+    explanation: "C.I.A.: Confidencialidad (Confidenciality), Integridad (Integrity) y Disponibilidad (Availability) de la información.",
+    ref: "Tema 10, slide 12"
   },
   {
     topic: 10,
@@ -112,7 +120,8 @@ window.QUESTIONS_T10 = [
       "Identificar, autorizar, validar"
     ],
     correct: 0,
-    explanation: "Ideas clave de la seguridad: Prevención (evitar incidentes), Detección (detectar incidentes con prontitud), Corrección (recuperarse después de detectarlos)."
+    explanation: "Ideas clave de la seguridad: Prevención (evitar incidentes), Detección (detectar incidentes con prontitud), Corrección (recuperarse después de detectarlos).",
+    ref: "Tema 10, slide 13"
   },
   {
     topic: 10,
@@ -124,7 +133,8 @@ window.QUESTIONS_T10 = [
       "Equilibrar el presupuesto"
     ],
     correct: 0,
-    explanation: "Principio de equilibrio: ni tan inseguro que estemos en peligro, ni \"tan, tan seguro\" que no se pueda trabajar de forma eficiente o no se pueda probar ninguna innovación."
+    explanation: "Principio de equilibrio: ni tan inseguro que estemos en peligro, ni \"tan, tan seguro\" que no se pueda trabajar de forma eficiente o no se pueda probar ninguna innovación.",
+    ref: "Tema 10, slide 14"
   },
   {
     topic: 10,
@@ -136,7 +146,8 @@ window.QUESTIONS_T10 = [
       "El proveedor de cloud"
     ],
     correct: 1,
-    explanation: "La propiedad de los datos personales es de su titular. La empresa sólo los almacena y gestiona. Deben establecerse políticas de seguridad y confidencialidad de datos."
+    explanation: "La propiedad de los datos personales es de su titular. La empresa sólo los almacena y gestiona. Deben establecerse políticas de seguridad y confidencialidad de datos.",
+    ref: "Tema 10, slide 15"
   },
 
   // GESTIÓN DEL CONOCIMIENTO
@@ -150,7 +161,8 @@ window.QUESTIONS_T10 = [
       "Lo que se aprende en cursos"
     ],
     correct: 1,
-    explanation: "Conocimiento es más que información; es información útil: en el formato correcto, en el momento correcto, procesada y presentada para quien debe utilizarla."
+    explanation: "Conocimiento es más que información; es información útil: en el formato correcto, en el momento correcto, procesada y presentada para quien debe utilizarla.",
+    ref: "Tema 10, slide 17"
   },
 
   // MEDICIÓN Y REPORTE
@@ -164,7 +176,8 @@ window.QUESTIONS_T10 = [
       "Aprobar cambios"
     ],
     correct: 0,
-    explanation: "Medición y reporte: hace posible la toma de decisiones basadas en dato. Se utilizan CSFs (factores críticos de éxito) y KPIs (indicadores clave de rendimiento)."
+    explanation: "Medición y reporte: hace posible la toma de decisiones basadas en dato. Se utilizan CSFs (factores críticos de éxito) y KPIs (indicadores clave de rendimiento).",
+    ref: "Tema 10, slide 19"
   },
   {
     topic: 10,
@@ -176,7 +189,8 @@ window.QUESTIONS_T10 = [
       "Empresarial, técnica y financiera"
     ],
     correct: 0,
-    explanation: "Tipos de analítica: Descriptiva (qué ha pasado), Diagnóstica (por qué), Predictiva (qué pasará), Prescriptiva (qué deberíamos hacer)."
+    explanation: "Tipos de analítica: Descriptiva (qué ha pasado), Diagnóstica (por qué), Predictiva (qué pasará), Prescriptiva (qué deberíamos hacer).",
+    ref: "Tema 10, slide 20"
   },
   {
     topic: 10,
@@ -188,7 +202,8 @@ window.QUESTIONS_T10 = [
       "Component System Framework"
     ],
     correct: 1,
-    explanation: "CSFs: Factores Críticos de Éxito. Junto con los KPIs (Indicadores Clave de Rendimiento) son la base de Medición y Reporte."
+    explanation: "CSFs: Factores Críticos de Éxito. Junto con los KPIs (Indicadores Clave de Rendimiento) son la base de Medición y Reporte.",
+    ref: "Tema 10, slide 19"
   },
 
   // GESTIÓN DEL CAMBIO ORGANIZACIONAL
@@ -202,7 +217,8 @@ window.QUESTIONS_T10 = [
       "Externalizar todos los procesos"
     ],
     correct: 0,
-    explanation: "Puntos clave del cambio organizacional: objetivos claros y relevantes, liderazgo fuerte y comprometido, participantes a favor del cambio y preparados, sostener el esfuerzo a lo largo del tiempo."
+    explanation: "Puntos clave del cambio organizacional: objetivos claros y relevantes, liderazgo fuerte y comprometido, participantes a favor del cambio y preparados, sostener el esfuerzo a lo largo del tiempo.",
+    ref: "Tema 10, slide 24"
   },
 
   // GESTIÓN DEL PORTFOLIO
@@ -216,7 +232,8 @@ window.QUESTIONS_T10 = [
       "Sólo de los clientes"
     ],
     correct: 0,
-    explanation: "Gestión del portfolio: se ocupa de que los servicios y proyectos de la organización ejecuten la estrategia, dentro de las restricciones de recursos."
+    explanation: "Gestión del portfolio: se ocupa de que los servicios y proyectos de la organización ejecuten la estrategia, dentro de las restricciones de recursos.",
+    ref: "Tema 10, slide 25"
   },
   {
     topic: 10,
@@ -228,7 +245,8 @@ window.QUESTIONS_T10 = [
       "Personal, departamental, corporativo"
     ],
     correct: 0,
-    explanation: "3 niveles del portfolio: portfolio de productos y servicios, portfolio de proyectos (incluye programas) y portfolio de clientes."
+    explanation: "3 niveles del portfolio: portfolio de productos y servicios, portfolio de proyectos (incluye programas) y portfolio de clientes.",
+    ref: "Tema 10, slide 25"
   },
 
   // GESTIÓN DE PROYECTOS
@@ -242,7 +260,8 @@ window.QUESTIONS_T10 = [
       "Sólo Scrum"
     ],
     correct: 2,
-    explanation: "Enfoques de gestión de proyectos: en cascada y metodología ágil. Las diferencias se ven en la definición del alcance, gestión de cambios, estimación, planificación, etc."
+    explanation: "Enfoques de gestión de proyectos: en cascada y metodología ágil. Las diferencias se ven en la definición del alcance, gestión de cambios, estimación, planificación, etc.",
+    ref: "Tema 10, slide 28"
   },
   {
     topic: 10,
@@ -254,7 +273,8 @@ window.QUESTIONS_T10 = [
       "Six Sigma"
     ],
     correct: 3,
-    explanation: "Metodologías ágiles citadas: Scrum, Kanban, XP, FDD, DSDM, Crystal, metodologías propias, Lean. Six Sigma no figura en la lista."
+    explanation: "Metodologías ágiles citadas: Scrum, Kanban, XP, FDD, DSDM, Crystal, metodologías propias, Lean. Six Sigma no figura en la lista.",
+    ref: "Tema 10, slide 32"
   },
 
   // GESTIÓN DE RELACIONES
@@ -268,7 +288,8 @@ window.QUESTIONS_T10 = [
       "De vender más"
     ],
     correct: 1,
-    explanation: "Gestión de relaciones: establece y mantiene los enlaces entre los interesados, a niveles estratégico (portfolio, alianzas estratégicas) y táctico (relación entre departamentos)."
+    explanation: "Gestión de relaciones: establece y mantiene los enlaces entre los interesados, a niveles estratégico (portfolio, alianzas estratégicas) y táctico (relación entre departamentos).",
+    ref: "Tema 10, slide 33"
   },
 
   // GESTIÓN DE RIESGOS
@@ -282,7 +303,8 @@ window.QUESTIONS_T10 = [
       "Sólo estratégicos"
     ],
     correct: 2,
-    explanation: "En la práctica de Gestión de Riesgos, los riesgos pueden ser positivos o negativos. (NOTA: en el contexto general de ITIL conceptos clave, la idea de \"Riesgo\" se trata como negativa)."
+    explanation: "En la práctica de Gestión de Riesgos, los riesgos pueden ser positivos o negativos. (NOTA: en el contexto general de ITIL conceptos clave, la idea de \"Riesgo\" se trata como negativa).",
+    ref: "Tema 10, slide 34"
   },
   {
     topic: 10,
@@ -294,7 +316,8 @@ window.QUESTIONS_T10 = [
       "Documentación y archivado"
     ],
     correct: 0,
-    explanation: "Actividades: 1) Identificación; 2) Análisis cualitativo y cuantitativo; 3) Preparación de respuestas: planes de contingencia."
+    explanation: "Actividades: 1) Identificación; 2) Análisis cualitativo y cuantitativo; 3) Preparación de respuestas: planes de contingencia.",
+    ref: "Tema 10, slide 34"
   },
   {
     topic: 10,
@@ -306,7 +329,8 @@ window.QUESTIONS_T10 = [
       "Personas × Tecnología"
     ],
     correct: 1,
-    explanation: "Análisis cualitativo de riesgos: Prioridad = Probabilidad × Impacto."
+    explanation: "Análisis cualitativo de riesgos: Prioridad = Probabilidad × Impacto.",
+    ref: "Tema 10, slide 35"
   },
 
   // GESTIÓN FINANCIERA
@@ -320,7 +344,8 @@ window.QUESTIONS_T10 = [
       "Coste, beneficio, margen"
     ],
     correct: 0,
-    explanation: "Gestión financiera: 1) Presupuestación de proyectos y servicios; 2) Contabilidad / imputación (¿cuánto cuesta cada actividad, proyecto, servicio, centro de coste?); 3) Facturación (cobrar a clientes)."
+    explanation: "Gestión financiera: 1) Presupuestación de proyectos y servicios; 2) Contabilidad / imputación (¿cuánto cuesta cada actividad, proyecto, servicio, centro de coste?); 3) Facturación (cobrar a clientes).",
+    ref: "Tema 10, slide 40"
   },
   {
     topic: 10,
@@ -332,7 +357,8 @@ window.QUESTIONS_T10 = [
       "CAPEX es sólo para hardware y OPEX para personal"
     ],
     correct: 1,
-    explanation: "CAPEX (CAPital EXpenditure): inversión inicial grande (modelo tradicional). OPEX (OPerational EXpenditure): contratos \"as a service\", cuanto más se usa más se paga; sin inversión inicial."
+    explanation: "CAPEX (CAPital EXpenditure): inversión inicial grande (modelo tradicional). OPEX (OPerational EXpenditure): contratos \"as a service\", cuanto más se usa más se paga; sin inversión inicial.",
+    ref: "Tema 10, slide 42"
   },
   {
     topic: 10,
@@ -344,7 +370,8 @@ window.QUESTIONS_T10 = [
       "Es lo mismo que la facturación"
     ],
     correct: 1,
-    explanation: "Monetización de los datos: muchas organizaciones están obteniendo ingresos por este motivo. No era una fuente de ingresos inicialmente prevista."
+    explanation: "Monetización de los datos: muchas organizaciones están obteniendo ingresos por este motivo. No era una fuente de ingresos inicialmente prevista.",
+    ref: "Tema 10, slide 41"
   },
 
   // GESTIÓN ESTRATÉGICA
@@ -358,7 +385,8 @@ window.QUESTIONS_T10 = [
       "Vender productos"
     ],
     correct: 1,
-    explanation: "Gestión de la estrategia: definir los objetivos de la compañía, y prever la asignación de recursos para ello. Incluye gobierno (políticas y cumplimiento) y nuevo estilo de liderazgo facilitador."
+    explanation: "Gestión de la estrategia: definir los objetivos de la compañía, y prever la asignación de recursos para ello. Incluye gobierno (políticas y cumplimiento) y nuevo estilo de liderazgo facilitador.",
+    ref: "Tema 10, slide 43"
   },
 
   // GESTIÓN DE PROVEEDORES
@@ -372,7 +400,8 @@ window.QUESTIONS_T10 = [
       "Sustituir todos los proveedores cada año"
     ],
     correct: 3,
-    explanation: "Las 5 actividades son: 1) Punto único de visibilidad y control; 2) Estrategia y política; 3) Negociar/acordar/firmar; 4) Gestionar contratos y relación; 5) Gestionar el rendimiento."
+    explanation: "Las 5 actividades son: 1) Punto único de visibilidad y control; 2) Estrategia y política; 3) Negociar/acordar/firmar; 4) Gestionar contratos y relación; 5) Gestionar el rendimiento.",
+    ref: "Tema 10, slide 45"
   },
   {
     topic: 10,
@@ -384,7 +413,8 @@ window.QUESTIONS_T10 = [
       "Todas las anteriores"
     ],
     correct: 3,
-    explanation: "Modalidades: Insourcing (recursos propios), Outsourcing (externos), Punto único de partnership (un partner integrador), Multi-sourcing (varios proveedores directamente)."
+    explanation: "Modalidades: Insourcing (recursos propios), Outsourcing (externos), Punto único de partnership (un partner integrador), Multi-sourcing (varios proveedores directamente).",
+    ref: "Tema 10, slide 47"
   },
   {
     topic: 10,
@@ -396,7 +426,8 @@ window.QUESTIONS_T10 = [
       "Auditor"
     ],
     correct: 1,
-    explanation: "Nuestro papel es el de integrador, y nuestra actividad es la orquestación: ¿el conjunto del trabajo recibido tiene sentido? ¿Qué valor adicional aportamos a esa suma?"
+    explanation: "Nuestro papel es el de integrador, y nuestra actividad es la orquestación: ¿el conjunto del trabajo recibido tiene sentido? ¿Qué valor adicional aportamos a esa suma?",
+    ref: "Tema 10, slide 49"
   },
 
   // GESTIÓN DEL TALENTO
@@ -410,7 +441,8 @@ window.QUESTIONS_T10 = [
       "De negociar convenios"
     ],
     correct: 0,
-    explanation: "Gestión del talento y fuerza laboral: prever y planificar la fuerza de trabajo necesaria. ¿Disponemos de los conocimientos necesarios? ¿De las personas suficientes? ¿De las personas correctas?"
+    explanation: "Gestión del talento y fuerza laboral: prever y planificar la fuerza de trabajo necesaria. ¿Disponemos de los conocimientos necesarios? ¿De las personas suficientes? ¿De las personas correctas?",
+    ref: "Tema 10, slide 50"
   },
   {
     topic: 10,
@@ -422,7 +454,8 @@ window.QUESTIONS_T10 = [
       "El tiempo medio de respuesta"
     ],
     correct: 1,
-    explanation: "Velocidad organizacional (velocity): velocidad a la que podemos entregar productos y servicios."
+    explanation: "Velocidad organizacional (velocity): velocidad a la que podemos entregar productos y servicios.",
+    ref: "Tema 10, slide 51"
   },
   {
     topic: 10,
@@ -434,7 +467,8 @@ window.QUESTIONS_T10 = [
       "Una métrica de rendimiento del servidor"
     ],
     correct: 1,
-    explanation: "Velocidad sostenible: ritmo que podemos mantener por tiempo indefinido."
+    explanation: "Velocidad sostenible: ritmo que podemos mantener por tiempo indefinido.",
+    ref: "Tema 10, slide 51"
   },
   {
     topic: 10,
@@ -446,7 +480,8 @@ window.QUESTIONS_T10 = [
       "La carga de trabajo"
     ],
     correct: 0,
-    explanation: "Competencias: conocimiento, habilidad, y actitudes para resolver situaciones o problemas."
+    explanation: "Competencias: conocimiento, habilidad, y actitudes para resolver situaciones o problemas.",
+    ref: "Tema 10, slide 51"
   },
 
   // GENERAL
@@ -460,7 +495,8 @@ window.QUESTIONS_T10 = [
       "El idioma del proveedor"
     ],
     correct: 0,
-    explanation: "Factores para selección: importancia e impacto (commodity, operativo, táctico, estratégico), riesgo y coste."
+    explanation: "Factores para selección: importancia e impacto (commodity, operativo, táctico, estratégico), riesgo y coste.",
+    ref: "Tema 10, slide 48"
   },
   {
     topic: 10,
@@ -472,6 +508,7 @@ window.QUESTIONS_T10 = [
       "Sólo proyectos físicos"
     ],
     correct: 1,
-    explanation: "Enfoque actual: entrega ágil. Todas las prácticas se entienden en un contexto de respuesta a cambios en la tecnología, el mercado… Dando respuesta a los procesos de Transformación Digital."
+    explanation: "Enfoque actual: entrega ágil. Todas las prácticas se entienden en un contexto de respuesta a cambios en la tecnología, el mercado… Dando respuesta a los procesos de Transformación Digital.",
+    ref: "Tema 10, slide 1"
   }
 ];
